@@ -7,7 +7,8 @@
 
 # Inhaltsverzeichnis:
 ### 1. [Ausgangssituation](/Workspace/InitialSituation.md)
-### 2. [Allgemeine Bedingungen und Beschränkungen](/Workspace/ConditionsAndConstraints.md)
-### 3. [System Konzept und Ziele](/Workspace/ConceptAndObjectives.md)
-### 4. [Möglichkeiten und Risiken](/Workspace/OpportunitiesAndRisks.md)
-### 5. [Planung](/Workspace/Planning.md)
+### 2. [Konzept](/Workspace/Concept.md)
+### 4. [Ziele](/Workspace/Objectives.md)
+### 3. [Allgemeine Bedingungen und Beschränkungen](/Workspace/ConditionsAndConstraints.md)
+### 5. [Möglichkeiten und Risiken](/Workspace/OpportunitiesAndRisks.md)
+### 6. [Planung](/Workspace/Planning.md)
