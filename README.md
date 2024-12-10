@@ -1,5 +1,7 @@
 # Private Password Manager
-![Picture of Password Manager](/Ressources/PasswordManagerLogo.webp)
+<p align="center">
+  <img src="/Ressources/PasswordManagerLogo.webp" alt="PasswordManagerPicture" width="800">
+</p>
 
 Build my own self hosted Password Manager
 
