@@ -1,4 +1,7 @@
-# Private Password Manager
+<p align="center">
+    <h1>Private Password Manager</h1>
+</p>
+
 <p align="center">
   <img src="/Ressources/PasswordManagerLogo.webp" alt="PasswordManagerPicture" width="800">
 </p>
