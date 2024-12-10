@@ -1,4 +1,6 @@
-# key-pass-manager
+# Private Password Manager
+![Picture of Password Manager](/Ressources/PasswordManagerLogo.webp)
+
 Build my own self hosted Password Manager
 
 
