@@ -3,7 +3,6 @@
   <img src="/Ressources/PasswordManagerLogo.webp" alt="PasswordManagerPicture" width="750">
 </div>
 
-<hr>
 <br>
 
 # Inhaltsverzeichnis:
