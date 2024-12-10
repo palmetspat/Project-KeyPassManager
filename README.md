@@ -3,8 +3,8 @@
   <img src="/Ressources/PasswordManagerLogo.webp" alt="PasswordManagerPicture" width="750">
 </div>
 
-Build my own self hosted Password Manager
-
+<hr>
+<br>
 
 # Inhaltsverzeichnis:
 ### 1. [Ausgangssituation](/Workspace/InitialSituation.md)
