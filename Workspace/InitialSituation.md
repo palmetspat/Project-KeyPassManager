@@ -10,6 +10,8 @@ Das Bedürfnis nach einer unabhängigen, sicheren und einfach zu bedienenden Lö
 
 ---
 
+<!--
+
 ### Marktanalyse: Softwareanbieter
 
 <details>
@@ -43,6 +45,8 @@ Das Bedürfnis nach einer unabhängigen, sicheren und einfach zu bedienenden Lö
 </details>
 
 ---
+
+-->
 
 ### Herausforderung: Benutzerfreundlichkeit und Interface-Design
 
