@@ -75,6 +75,7 @@
 
 ---
 
+<!--
 ## Effort Estimation
 
 | **ID**   | **User Story**                                                                                                     | **CoS (Criteria of Satisfaction)**                                                                              | **Estimated Effort** | **Priority** | **Status** | **Time Spent (hours)** |
@@ -86,3 +87,4 @@
 | Main-05  | Als User möchte ich eine Exportfunktion, um Passwörter in eine Datei zu sichern.                                    | Export im CSV-Format mit Passwortschutz; Kompatibilität mit anderen Tools wie KeePass.                         | 4                    | Niedrig      | Offen      | 0                      |
 
 ---
+-->
