@@ -1,4 +1,4 @@
-# Projekt Ziele
+# Projektziele
 
 ## Unabhängigkeit von Drittanbietern
 - **Self-Hosted Applikation**:  
