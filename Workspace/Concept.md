@@ -1,21 +1,17 @@
 # Systemkonzept
 
-## Einführung
-In der heutigen digitalen Welt ist die sichere Verwaltung von Passwörtern essenziell. Viele bestehende Lösungen speichern Daten in der Cloud, was Abhängigkeiten schafft und Sicherheitsrisiken birgt. Unser Ansatz ist es, Passwörter lokal zu speichern und dabei eine einfache und intuitive Nutzung zu ermöglichen.
+Unser Konzept basiert darauf, einen Passwortmanager zu entwickeln, der Passwörter lokal oder auf einem sicheren, vom Nutzer kontrollierten Server speichert. Die Anwendung wird modular aufgebaut, um Flexibilität und zukünftige Erweiterbarkeit zu gewährleisten:
 
-## Systemaufbau
-- **Speicherung**: Passwörter werden lokal auf dem Gerät gespeichert und sicher verschlüsselt, um maximale Kontrolle und Sicherheit zu gewährleisten.
+- **Speicherung**: Passwörter werden sicher verschlüsselt gespeichert, entweder lokal auf dem Gerät oder serverbasiert.
 - **Plattformen**:
-  - Desktop-Anwendung für Windows.
-  - Eine Web-Anwendung als Ergänzung für den Zugriff über den Browser (optional).
+  - Desktop-Anwendung für Windows (weitere Plattformen wie Linux und macOS optional in der Zukunft).
+  - Optionale Web-Anwendung für den Zugriff über den Browser.
 - **Kernfunktionen**:
-  - Passwörter können hinzugefügt, bearbeitet, gelöscht und durchsucht werden.
-  - Import und Export von Passwörtern im sicheren Format.
-
-## Sicherheit
-- **Verschlüsselung**: Passwörter werden mit modernen Standards verschlüsselt (z. B. AES-256).
-- **Datenübertragung**: Bei der Synchronisation zwischen Geräten erfolgt die Übertragung verschlüsselt.
-- **Privatsphäre**: Keine Daten werden unverschlüsselt gespeichert oder an Dritte weitergegeben.
-
-## Erweiterbarkeit
-- Das System wird modular aufgebaut, sodass Funktionen wie Synchronisation, Teamzugriff oder mobile Apps später hinzugefügt werden können.
+  - Hinzufügen, Bearbeiten und Löschen von Passwörtern.
+  - Sichere Suche innerhalb der gespeicherten Passwörter.
+  - Import und Export von Passwörtern im verschlüsselten Format.
+- **Sicherheit**:
+  - End-to-End-Verschlüsselung bei Datenübertragungen zwischen Geräten.
+  - Daten werden niemals unverschlüsselt zwischengespeichert oder weitergegeben.
+- **Erweiterbarkeit**:
+  - Modularer Aufbau ermöglicht die zukünftige Integration von Funktionen wie Synchronisation, Teamzugriff oder mobilen Apps.
