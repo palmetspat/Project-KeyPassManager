@@ -1,6 +1,6 @@
 # Systemkonzept
 
-Unser Konzept basiert darauf, einen Passwortmanager zu entwickeln, der Passwörter lokal oder auf einem sicheren, vom Nutzer kontrollierten Server speichert. Die Anwendung wird modular aufgebaut, um Flexibilität und zukünftige Erweiterbarkeit zu gewährleisten:
+Unser Konzept basiert darauf, einen Passwortmanager zu entwickeln, der Passwörter lokal oder auf einem sicheren Server speichert. Die Anwendung wird modular aufgebaut, um Flexibilität und zukünftige Erweiterbarkeit zu gewährleisten:
 
 - **Speicherung**: Passwörter werden sicher verschlüsselt gespeichert, entweder lokal auf dem Gerät oder serverbasiert.
 - **Plattformen**:
