@@ -46,7 +46,7 @@
 - **Trust-Prinzip**:  
   Das Vertrauen der Nutzer darf nicht gebrochen werden, da dies den Erfolg des Systems gefährden würde.  
 
-### Verfügbarkeit
+### Verfügbarkeit ?!
 - **24/7 Verfügbarkeit**:  
   - Das System muss jederzeit erreichbar sein.  
   - Ein Backup-Server sollte in Betracht gezogen werden, um **örtliche Redundanz** zu gewährleisten.
