@@ -1,25 +1,18 @@
 # Allgemeine Bedingungen und Beschränkungen
 
 ## Technische Einschränkungen
-- **Speicherung**: Passwörter werden lokal in verschlüsselter Form gespeichert (AES-256).
-- **Datenübertragung**: Kommunikation erfolgt ausschließlich über verschlüsselte Verbindungen (TLS).
-- **Plattformen**:
-  - Desktop: Unterstützung für Windows, macOS und Linux.
-  - Web: Unterstützung für gängige Browser (Chrome, Firefox, Edge).
-- **Datenbank**: Verwendung von SQLite oder PostgreSQL für die Speicherung.
+- Passwörter werden nur lokal auf dem Gerät gespeichert.
+- Verschlüsselung der gespeicherten Passwörter (Details werden im Projektverlauf erarbeitet).
+- Die Desktop-Anwendung ist primär für Windows gedacht, andere Plattformen könnten später unterstützt werden.
 
 ## Systemanforderungen
-- **Hardware**: Die Anwendung benötigt einen Standard-PC oder Laptop mit moderner Betriebssystemunterstützung.
-- **Software**:
-  - Desktop: Entwicklung in C# mit WPF oder Avalonia UI.
-  - Web: Nutzung von Blazor oder React für die Frontend-Entwicklung.
-- **Self-Hosting**: Docker wird für optionale Serverinstallation unterstützt.
+- Die Anwendung benötigt einen aktuellen Computer oder Laptop mit Windows-Betriebssystem.
+- Für die Nutzung einer möglichen Web-Anwendung ist ein moderner Browser erforderlich.
 
 ## Sicherheit
-- **Verschlüsselung**: Alle Daten werden mit AES-256 verschlüsselt.
-- **Synchronisierung**: Optional über sichere, manuell eingerichtete Server (kein Cloud-Zwang).
-- **Datenschutz**: Keine Speicherung oder Verarbeitung sensibler Daten auf Drittanbietersystemen.
+- Die Passwörter dürfen niemals unverschlüsselt gespeichert werden.
+- Es wird sichergestellt, dass keine Daten ohne Zustimmung der Nutzer an externe Systeme gesendet werden.
 
 ## Einschränkungen
-- Teamfunktionen und Erweiterungen sind erst in späteren Phasen verfügbar.
-- Der initiale Fokus liegt auf der Desktop-Anwendung, mobile Versionen folgen später.
+- Der initiale Fokus liegt auf der Desktop-Anwendung, Web- und mobile Anwendungen sind optional für spätere Versionen.
+- Teamfunktionen und Synchronisation zwischen Geräten werden erst später untersucht.
