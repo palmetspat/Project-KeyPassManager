@@ -11,7 +11,7 @@
 
 ## Systemanforderungen
 - **Hardware**: Aktueller Computer oder Laptop mit Windows-Betriebssystem.
-- **Software**: Keine zusätzlichen Programme oder Dienste erforderlich, außer optionaler Server für Synchronisation.
+- **Software**: Keine zusätzlichen Programme oder Dienste erforderlich, außer optionaler Server für Synchronisation.     *!! Docker usw.* 
 
 ## Risiken und Herausforderungen
 - **Technische Risiken**:
@@ -19,13 +19,13 @@
   - Plattformübergreifende Nutzung und Synchronisation können unerwartet komplex werden.
 - **Organisatorische Risiken**:
   - Begrenzte Zeit und Ressourcen während der Entwicklung.
-  - Abhängigkeit von externen Tools oder Bibliotheken.
+  - Abhängigkeit von externen Tools oder Bibliotheken.   *!! Docker usw.*
 - **Lösungsansätze**:
-  - Verwendung bewährter Methoden und einfacher Technologien, um Fehler zu minimieren.
+  - Verwendung bewährter Methoden und einfacher Technologien, um Fehler zu minimieren. !! 
   - Regelmäßige Tests zur Sicherstellung von Funktionalität und Sicherheit.
 
 ## Einschränkungen
 - Der initiale Fokus liegt auf der Desktop-Anwendung.
 - Synchronisationsfunktionen und mobile Versionen werden in späteren Phasen geplant und umgesetzt.
-- Erweiterte Funktionen wie Teamzugriff oder API-Integration sind nicht Teil der ersten Entwicklungsphase.
+- Erweiterte Funktionen wie Teamzugriff oder API-Integration sind nicht Teil der ersten Entwicklungsphase. !! 
 
