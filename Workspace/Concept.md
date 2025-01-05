@@ -5,7 +5,7 @@ Unser Konzept basiert darauf, einen Passwortmanager zu entwickeln, der Passwört
 - **Speicherung**: Passwörter werden sicher verschlüsselt gespeichert, entweder lokal auf dem Gerät oder serverbasiert.
 - **Plattformen**:
   - Desktop-Anwendung für Windows (weitere Plattformen wie Linux und macOS optional in der Zukunft).
-  - Optionale Web-Anwendung für den Zugriff über den Browser.
+  - Web-Anwendung für den Zugriff über den Browser.
 - **Kernfunktionen**:
   - Hinzufügen, Bearbeiten und Löschen von Passwörtern.
   - Sichere Suche innerhalb der gespeicherten Passwörter.
