@@ -1,19 +1,21 @@
 # Systemkonzept
 
-Das System wird modular aufgebaut, um Flexibilität und zukünftige Erweiterbarkeit zu gewährleisten:
+## Grundidee
+- Der Passwortmanager speichert Passwörter lokal auf dem Gerät des Nutzers.
+- Passwörter werden sicher verschlüsselt, um unbefugten Zugriff zu verhindern.
 
-1. **Benutzerplattform**:
-   - Eine plattformübergreifende Anwendung, die sowohl auf Desktop-Geräten (Windows, macOS, Linux) als auch über einen Webbrowser zugänglich ist.
-   - Unterstützung für mehrere Benutzerkonten mit individuellen Einstellungen.
+## Plattformen
+- Desktop-Anwendung für Windows (andere Plattformen optional später).
+- Web-Anwendung als Ergänzung für den Zugriff über den Browser (optional).
 
-2. **Technologische Umsetzung**:
-   - **Verschlüsselung**: Passwörter werden lokal verschlüsselt gespeichert, und die Datenübertragung erfolgt verschlüsselt (TLS).
-   - **Integration**: Möglichkeit zur Synchronisierung mit Browsern oder mobilen Geräten über sichere Kanäle.
+## Funktionen
+- Nutzer können Passwörter hinzufügen, bearbeiten und löschen.
+- Passwörter können durchsucht und in einer Liste organisiert werden.
 
-3. **Geschäftsmodell**:
-   - Kostenloser Basiszugang für Einzelpersonen.
-   - Erweiterte Premium-Optionen wie Teamverwaltung, Backup und erweiterte Sicherheitsfunktionen.
+## Sicherheit
+- Verschlüsselte Speicherung von Passwörtern (Details zur Verschlüsselung folgen im Projektverlauf).
+- Sicherstellung, dass keine Daten ungeschützt gespeichert werden.
 
-4. **Langfristige Entwicklung**:
-   - Unterstützung für zusätzliche Plattformen (z. B. Android und iOS).
-   - Einführung von Zwei-Faktor-Authentifizierung und biometrischen Sicherheitsoptionen.
+## Erweiterungen
+- Synchronisierung zwischen Geräten und Teams ist als zukünftige Funktion geplant.
+- Mobile Versionen (z. B. für Android und iOS) könnten später entwickelt werden.
