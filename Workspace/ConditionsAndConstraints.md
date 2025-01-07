@@ -21,7 +21,7 @@
   - Begrenzte Zeit und Ressourcen während der Entwicklung.
   - Abhängigkeit von externen Tools oder Bibliotheken.
 - **Lösungsansätze**:
-  - **Bewährte Technologien**: Einsatz von sicheren Standards wie AES-256 und TLS sowie etablierten Tools wie .NET und Docker.
+  - **Bewährte Technologien**: Einsatz von sicheren Standards wie AES-256 und TLS.
   - **Tests**: Regelmäßige automatisierte Tests zur Funktionsprüfung und Sicherheit sowie Benutzerfeedback zur Verbesserung der Bedienbarkeit.
   - **Schrittweise Entwicklung**: Das Programm wird in kleinen Schritten verbessert, mit regelmäßigen Updates und schnellen Fehlerbehebungen.
 
