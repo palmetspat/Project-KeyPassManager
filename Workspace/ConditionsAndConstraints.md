@@ -21,10 +21,11 @@
   - Begrenzte Zeit und Ressourcen während der Entwicklung.
   - Abhängigkeit von externen Tools oder Bibliotheken.
 - **Lösungsansätze**:
-  - Verwendung bewährter Methoden und einfacher Technologien, um Fehler zu minimieren.
-  - Regelmäßige Tests zur Sicherstellung von Funktionalität und Sicherheit.
+  - **Bewährte Technologien**: Einsatz von sicheren Standards wie AES-256 und TLS sowie etablierten Tools wie .NET und Docker.
+  - **Tests**: Regelmäßige automatisierte Tests zur Funktionsprüfung und Sicherheit sowie Benutzerfeedback zur Verbesserung der Bedienbarkeit.
+  - **Schrittweise Entwicklung**: Das Programm wird in kleinen Schritten verbessert, mit regelmäßigen Updates und schnellen Fehlerbehebungen.
 
 ## Einschränkungen
-- Der initiale Fokus liegt auf der Desktop-Anwendung.
+- Der Fokus liegt auf der Desktop-Anwendung.
 - Synchronisationsfunktionen und mobile Versionen werden in späteren Phasen geplant und umgesetzt.
-- Erweiterte Funktionen wie Teamzugriff oder API-Integration sind nicht Teil der ersten Entwicklungsphase.
+- Erweiterte Funktionen wie API-Integration sind nicht Teil der ersten Entwicklungsphase.
