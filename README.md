@@ -1,6 +1,9 @@
-# Key Vault - Password Manager
-  <img src="/Ressources/KeyVault-Logo.png" alt="KeyVaultLogo" width="450">
-<br>
+<div align="center">
+  <h1> Key Vault - Password Manager </h1>
+  <img src="/Ressources/KeyVault-Logo.png" alt="KeyVaultLogo" width="550">
+</div>
+
+---
 
 # Inhaltsverzeichnis:
 ### 1. [Ausgangssituation](./Workspace/InitialSituation.md)
