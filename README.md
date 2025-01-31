@@ -1,8 +1,5 @@
-<div align="center">
-    <h1>Key Vault - Password Manager</h1>
+# Key Vault - Password Manager
   <img src="/Ressources/KeyVault-Logo.png" alt="KeyVaultLogo" width="450">
-</div>
-
 <br>
 
 # Inhaltsverzeichnis:
