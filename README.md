@@ -1,6 +1,6 @@
 <div align="center">
-    <h1>Private Password Manager</h1>
-  <img src="/Ressources/PasswordManagerLogo.webp" alt="PasswordManagerPicture" width="750">
+    <h1>Key Vault - Password Manager</h1>
+  <img src="/Ressources/KeyVault-Logo.png" alt="KeyVaultLogo" width="750">
 </div>
 
 <br>
