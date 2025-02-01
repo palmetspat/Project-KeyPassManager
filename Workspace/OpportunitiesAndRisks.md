@@ -31,7 +31,8 @@
 ## Passwortanzahl vs. Unterschiedliche Passwörter
 
 ```mermaid
-bar chart
+%% Liniendiagramm für Passwortanzahl vs. Unterschiedliche Passwörter
+line chart
   title Passwortanzahl vs. Unterschiedliche Passwörter nach Alter
   x-axis Alter
   y-axis Anzahl
@@ -56,13 +57,14 @@ bar chart
   series Passwortanzahl, Unterschiedliche Passwörter
 ```
 
+```markdown
 ```mermaid
-pie chart
-  title Passwortmanager-Kenntnis und einfache Passwörter
-  "Kennt Passwortmanager - Ja" : 14
-  "Kennt Passwortmanager - Nein" : 6
-  "Verwendet einfache Passwörter - Ja" : 12
-  "Verwendet einfache Passwörter - Nein" : 8
+%% Baumdiagramm für Passwortmanager-Kenntnis & einfache Passwörter
+graph TD;
+  A[Passwortmanager-Kenntnis] -->|Ja| B[14 Personen]
+  A -->|Nein| C[6 Personen]
+  D[Einfache Passwörter] -->|Ja| E[12 Personen]
+  D -->|Nein| F[8 Personen]
 ```
 
 ### Fazit der Analyse
