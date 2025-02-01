@@ -1,9 +1,13 @@
 <div align="center">
   <h1> Key Vault - Password Manager </h1>
-  <img src="/Ressources/KeyVault-Logo.png" alt="KeyVaultLogo" width="500">
+  <img src="/Ressources/Pictures/KeyVault-Logo.png" alt="KeyVaultLogo" width="500">
 </div>
 
 ---
+
+| **Key Vault - Password Manager** |
+|------------------------|
+| ![Key Vault-Logo](./Ressources/Pictures/KeyVault-Logo.png) |
 
 # Inhaltsverzeichnis:
 ### 1. [Ausgangssituation](./Workspace/InitialSituation.md)
