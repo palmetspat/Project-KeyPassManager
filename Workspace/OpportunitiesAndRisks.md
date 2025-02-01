@@ -1,57 +1,39 @@
-#Chancen und Risiken des Projektes
+# Chancen und Risiken des Projektes
 
 ## Chancen 
 
 ### Marktanalyse
-- **Online-Recherche**:  
-  -	Unsere Online - Recherche ergab, dass es zwar viele Anbieter auf dem Markt gibt,die Passwort Manger zu Verfügung stellen. Dabei werden aber die wesentlichsten und wichtigsten Punkte nicht geklärt oder sind nicht angeführt:  
-  - Datenschutz  
-  - Sicherheit  
-  - Speicherort der Daten und deren Behandlung  
-  - Zugriffsmöglichkeiten von Drittanbietern  
+Unsere Online-Recherche ergab, dass es zwar viele Anbieter auf dem Markt gibt, die Passwortmanager zur Verfügung stellen. Dabei werden aber wesentliche Punkte oft nicht geklärt oder nicht ausreichend behandelt:
 
-- **Umfragen**:  
-  - Eine **anonyme Online-Umfrage** sowie Interviews mit Passanten wurden durchgeführt, um Meinungen zu Passwortmanagern zu erheben.  
-  - Die gestellten Fragen lauteten:  
-    - Wie viele Passwörter besitzen Sie ungefähr?  
-    - Wie viele unterschiedliche Passwörter nutzen Sie?  
-    - Verwenden Sie einfache Passwörter?  
-    - Kennen Sie Passwortmanager?  
+- **Datenschutz**: Viele Anbieter speichern Passwörter in der Cloud, wodurch Nutzer die Kontrolle über ihre Daten verlieren.
+- **Sicherheit**: Oft fehlen transparente Sicherheitsmechanismen oder es gab bereits Sicherheitsprobleme (z. B. Datenlecks).
+- **Speicherort der Daten**: Viele Nutzer möchten selbst entscheiden, wo ihre Passwörter gespeichert werden, doch die meisten Anbieter bieten keine lokale Lösung an.
+- **Zugriffsmöglichkeiten von Drittanbietern**: Einige Lösungen ermöglichen Unternehmen oder Administratoren den Zugriff auf gespeicherte Passwörter, was für viele ein Risiko darstellt.
 
-### Ergebnisse der Umfrage
+Diese Erkenntnisse werden durch unsere **Umfrage bestätigt**:
+
+### Umfrageergebnisse
 - **Altersgruppe 16–50 Jahre**:  
-  - Passwortmanager sind weitgehend bekannt, doch es herrscht wenig Vertrauen, insbesonders in Bezug auf Datenschutz und möglichen Datenmissbrauch. 
-
+  - Passwortmanager sind bekannt, aber viele Nutzer haben **Sicherheitsbedenken**.
+  - Cloud-Speicherung wird oft kritisch gesehen.
 - **Altersgruppe über 50 Jahre**:  
   - Passwortmanager sind weniger bekannt.  
-  - Weniger Passwörter werden genutzt, da diese Altersgruppe tendenziell seltener auf Online-Plattformen angemeldet ist.  
-  - Meistens wird dasselbe, einfach zu merkende Passwort verwendet, oft mit der minimal erforderlichen Länge.
+  - Viele nutzen stattdessen **einfache oder wiederverwendete Passwörter** mit minimaler Länge.
+  - Es besteht eine hohe Skepsis gegenüber digitalen Passwortlösungen.
 
-## Umfrageergebnisse (20 Befragte Personen)
+➡ **Fazit:** Es gibt eine klare Marktlücke für eine **einfache, sichere und lokal gespeicherte Lösung**.
+
+### Umfrageergebnisse (20 Befragte Personen)
 
 | Bar-Chart | Pie-Chart |
 |------------------------|---------------------------|
 | ![Survey BarChart](../Ressources/Survey_Data/Survey_BarChart.png) | ![Survey PieChart](../Ressources/Survey_Data/Survey_PieChart.png) |
 
-### Fazit der Analyse
-- Der Markt benötigt ein **zuverlässiges System**, das folgende Punkte abdeckt:  
-  - Datenschutz  
-  - Sicherheit  
-  - Einfache Bedienung  
-  - Transparenz (keine Einsicht durch Drittpersonen)  
+### Zielgruppe erweitern
+Die Umfrage zeigt, dass ältere Nutzer Passwortmanager seltener nutzen und eher einfache, wiederverwendete Passwörter bevorzugen.  
+Um diese Zielgruppe zu erreichen, sind einfache Bedienbarkeit und Vertrauensbildung entscheidend.
 
-- **Zielgruppe erweitern**:  
-  Es ist notwendig, auch die ältere Altersgruppe von den Vorteilen solcher Applikationen zu überzeugen, um Akzeptanz und Vertrauen zu schaffen.
-
-### Herausforderung: Benutzerfreundlichkeit und Interface-Design
-Eine häufige Schwachstelle der bestehenden Lösungen ist die Gestaltung der Benutzeroberfläche (UI) und die Benutzerfreundlichkeit (UX). 
-Viele in der Ausgangssituation genannten Passwortmanager sprechen entweder ausschließlich technisch veranlagte Nutzer an oder sind durch überladene Interfaces unnötig komplex.
-
-- **Überladene Interfaces**: Anbieter wie Dashlane und LastPass integrieren zahlreiche Zusatzfunktionen (z.B.: Dark-Web-Monitoring oder VPN's), die den eigentlichen Zweck der Software (sichere Passwortverwaltung) in den Hintergrund rücken.
-- **Eingeschränkte Zugänglichkeit**: Lösungen wie KeePassXC oder Bitwarden sind technisch und flexibel, aber für Anfänger oft schwer verständlich.
-- **Veraltetes Design**: Manche Anbieter (z. B. LastPass) setzen auf eine veraltete Optik, die nicht den Ansprüchen moderner Software-Nutzer entspricht.
-
-## Risiko
+## Risiken
 
 ### Sicherheitsaspekte
 - **Sicherheitslücken**:  
@@ -60,7 +42,18 @@ Viele in der Ausgangssituation genannten Passwortmanager sprechen entweder aussc
 - **Trust-Prinzip**:  
   Das Vertrauen der Nutzer darf nicht gebrochen werden, da dies den Erfolg des Systems gefährden würde.  
 
-### Verfügbarkeit ?!
-- **24/7 Verfügbarkeit**:  
-  - Das System muss jederzeit erreichbar sein.  
-  - Ein Backup-Server sollte in Betracht gezogen werden, um **örtliche Redundanz** zu gewährleisten.
+### Verfügbarkeit
+- **Erreichbarkeit der Anwendung**:  
+  - Da der Passwortmanager primär lokal arbeitet, muss sichergestellt werden, dass der Zugriff **jederzeit und ohne Internetverbindung** funktioniert.
+  - Falls ein optionaler Server später integriert wird, ist eine **Backup-Lösung** nötig, um Datenverlust zu vermeiden.
+
+### Technische Risiken: Benutzerfreundlichkeit & UX
+- **Überladene Interfaces**:  
+  - Manche Passwortmanager bieten zu viele Funktionen auf einmal, was für unerfahrene Nutzer verwirrend sein kann.
+- **Eingeschränkte Zugänglichkeit**:  
+  - Lösungen wie KeePassXC oder Bitwarden sind technisch und flexibel, aber schwer verständlich für Anfänger.
+- **Veraltetes Design**:  
+  - Manche Anbieter (z. B. LastPass) setzen auf eine veraltete Optik, die nicht den Ansprüchen moderner Software-Nutzer entspricht.
+
+### Fazit
+Das Projekt bietet eine **klare Chance**, sich von bestehenden Lösungen abzuheben, indem es sich auf **Datenschutz, einfache Bedienung und lokale Speicherung** fokussiert. Gleichzeitig müssen **technische Herausforderungen** (Benutzerfreundlichkeit, Sicherheitsmechanismen) sorgfältig berücksichtigt werden, um das Vertrauen der Nutzer zu gewinnen und eine nachhaltige Lösung bereitzustellen.
