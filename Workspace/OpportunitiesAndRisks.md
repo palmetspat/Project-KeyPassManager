@@ -47,13 +47,20 @@ Um diese Zielgruppe zu erreichen, sind einfache Bedienbarkeit und Vertrauensbild
   - Da der Passwortmanager primär lokal arbeitet, muss sichergestellt werden, dass der Zugriff **jederzeit und ohne Internetverbindung** funktioniert.
   - Falls ein optionaler Server später integriert wird, ist eine **Backup-Lösung** nötig, um Datenverlust zu vermeiden.
 
-### Technische Risiken: Benutzerfreundlichkeit & User Experience
-- **Überladene Interfaces**:  
-  - Manche Passwortmanager bieten zu viele Funktionen auf einmal, was für unerfahrene Nutzer verwirrend sein kann.
-- **Eingeschränkte Zugänglichkeit**:  
-  - Lösungen wie KeePassXC oder Bitwarden sind technisch und flexibel, aber schwer verständlich für Anfänger.
-- **Veraltetes Design**:  
-  - Manche Anbieter (z. B. LastPass) setzen auf eine veraltete Optik, die nicht den Ansprüchen moderner Software-Nutzer entspricht.
+### Technische Risiken: Benutzerfreundlichkeit & Nutzererfahrung
+
+- **Zu viele Funktionen auf einmal:**  
+  - Einige Passwortmanager bieten sehr viele Einstellungen und Extras, was für **unerfahrene Nutzer verwirrend** sein kann.  
+  - **Beispiel:** Manche Programme haben komplizierte Menüs, bei denen man erst herausfinden muss, welche Funktionen wirklich wichtig sind.  
+
+- **Schwierige Bedienung für Anfänger:**  
+  - Manche Programme sind technisch gut, aber **nicht selbsterklärend**.  
+  - Nutzer müssen oft **selbst herausfinden**, wie sie Passwörter speichern oder synchronisieren.  
+
+- **Unübersichtliches oder veraltetes Design:**  
+  - Manche Passwortmanager wirken **veraltet** und sind **nicht modern gestaltet**.  
+  - Wenn eine Software **nicht ansprechend aussieht oder schwer zu bedienen ist**, nutzen viele sie **nicht gerne**.  
+
 
 ### Fazit
 Das Projekt bietet eine **klare Chance**, sich von bestehenden Lösungen abzuheben, indem es sich auf **Datenschutz, einfache Bedienung und lokale Speicherung** fokussiert. Gleichzeitig müssen **technische Herausforderungen** (Benutzerfreundlichkeit, Sicherheitsmechanismen) sorgfältig berücksichtigt werden, um das Vertrauen der Nutzer zu gewinnen und eine nachhaltige Lösung bereitzustellen.
