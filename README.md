@@ -5,10 +5,6 @@
 
 ---
 
-| **Key Vault - Password Manager** |
-|------------------------|
-| ![Key Vault-Logo](./Ressources/Pictures/KeyVault-Logo.png) |
-
 # Inhaltsverzeichnis:
 ### 1. [Ausgangssituation](./Workspace/InitialSituation.md)
 ### 2. [Allgemeine Bedingungen und Beschränkungen](./Workspace/ConditionsAndConstraints.md)
