@@ -1,31 +1,51 @@
-# Allgemeine Bedingungen und Beschränkungen
+# **Allgemeine Bedingungen und Beschränkungen**
 
-## Technische Bedingungen
-- **Speicherung**: Passwörter können lokal oder auf einem sicheren, vom Nutzer kontrollierten Server gespeichert werden.
-- **Plattformen**:
-  - Desktop-Anwendung wird primär für Windows entwickelt.
-  - Unterstützung gängiger Webbrowser (Chrome, Firefox, Edge) für die optionale Web-Anwendung.
-- **Sicherheit**:
-  - Daten werden verschlüsselt gespeichert (z. B. AES-256) und sicher übertragen (z. B. TLS).
-  - Es erfolgt keine unverschlüsselte Speicherung oder Weitergabe von Passwörtern.
+## **Technische Bedingungen**
+- **Speicherung:**  
+  - Passwörter werden entweder **lokal auf dem Gerät** oder **auf einem sicheren, vom Nutzer verwalteten Server** gespeichert.  
+- **Plattformen:**  
+  - **Primärentwicklung für Windows** als Desktop-Anwendung.  
+  - **Unterstützung für gängige Webbrowser** (Chrome, Firefox, Edge) für eine optionale Web-Anwendung.  
+  - **Geplante Erweiterung für Linux & macOS** in späteren Versionen.  
+- **Sicherheit:**  
+  - Alle gespeicherten Daten werden mit **AES-256** verschlüsselt.  
+  - **TLS-Verschlüsselung** stellt eine sichere Datenübertragung sicher.  
+  - **Kein unverschlüsseltes Speichern oder Übermitteln** von Passwörtern.  
+  - **AutoFill-Funktion:** Die Software erkennt Anmeldefelder und bietet die automatische Speicherung von Zugangsdaten an.  
 
-## Systemanforderungen
-- **Hardware**: Aktueller Computer oder Laptop mit Windows-Betriebssystem.
-- **Software**: Keine zusätzlichen Programme oder Dienste erforderlich, außer optionaler Server für Synchronisation.
+---
 
-## Risiken und Herausforderungen
-- **Technische Risiken**:
-  - Sichere Implementierung der Verschlüsselung erfordert Sorgfalt und regelmäßige Tests.
-  - Plattformübergreifende Nutzung und Synchronisation können unerwartet komplex werden.
-- **Organisatorische Risiken**:
-  - Begrenzte Zeit und Ressourcen während der Entwicklung.
-  - Abhängigkeit von externen Tools oder Bibliotheken.
-- **Lösungsansätze**:
-  - **Bewährte Technologien**: Einsatz von sicheren Standards wie AES-256 und TLS.
-  - **Tests**: Regelmäßige automatisierte Tests zur Funktionsprüfung und Sicherheit sowie Benutzerfeedback zur Verbesserung der Bedienbarkeit.
-  - **Schrittweise Entwicklung**: Das Programm wird in kleinen Schritten verbessert, mit regelmäßigen Updates und schnellen Fehlerbehebungen.
+## **Systemanforderungen**
+- **Hardware:**  
+  - Ein **aktueller Computer oder Laptop** mit Windows 10 oder neuer.  
+- **Software:**  
+  - Keine zusätzlichen Programme erforderlich, außer ein **optionaler Server** für Synchronisation.  
 
-## Einschränkungen
-- Der Fokus liegt auf der Desktop-Anwendung.
-- Synchronisationsfunktionen und mobile Versionen werden in späteren Phasen geplant und umgesetzt.
-- Erweiterte Funktionen wie API-Integration sind nicht Teil der ersten Entwicklungsphase.
+---
+
+## **Einschränkungen**
+🚫 **Die erste Version fokussiert sich auf die Windows-Desktop-Anwendung** – andere Plattformen werden später ergänzt.  
+🚫 **Keine mobile Version oder erweiterte Synchronisation in der ersten Veröffentlichung**.  
+🚫 **Plattformübergreifende Funktionalität wird nur auf offiziell unterstützten Betriebssystemen (Windows, Linux, macOS) getestet**.  
+🚫 **Keine zentrale Cloud-Lösung in Version 1 – das Hosting liegt in der Verantwortung des Nutzers**.  
+
+---
+
+## **Wer ist der Host?**
+💡 **Die Anwendung ist primär Self-Hosted**, d. h. der Nutzer entscheidet selbst, ob er die Daten **lokal oder auf einem eigenen Server** speichert.  
+- **Keine zentrale Serverlösung vorgesehen** in Version 1.  
+- Spätere Versionen könnten eine Hosting-Option über einen eigenen Anbieter ermöglichen.  
+
+---
+
+## **Plattformintegration & AutoFill**
+Ein zentrales Feature wird die **AutoFill-Funktion** sein, die automatisch erkennt, wenn der Nutzer sich auf einer Website oder in einer App anmeldet. Dabei wird gefragt, ob die eingegebenen Zugangsdaten im Passwortmanager gespeichert werden sollen.  
+
+🔹 **Technische Umsetzung:**  
+- **Webbrowser-Integration über eine Erweiterung**  
+- **Desktop-Integration durch laufende Erkennung von Eingabefeldern**  
+
+🔹 **Nutzerkontrolle:**  
+- **AutoFill kann manuell aktiviert oder deaktiviert werden**.  
+- **Alle erkannten Daten bleiben verschlüsselt und lokal gespeichert**.  
+
