@@ -30,38 +30,9 @@
 ## Umfrageergebnisse
 ## Passwortanzahl vs. Unterschiedliche Passwörter
 
-```mermaid
-%% Liniendiagramm für Passwortanzahl vs. Unterschiedliche Passwörter
-graph TD;
-    A18["18 Jahre: 20 Passwörter, 15 unterschiedliche"] -->|20| B18[████]
-    A22_1["22 Jahre: 40 Passwörter, 30 unterschiedliche"] -->|40| B22_1[████████]
-    A22_2["22 Jahre: 35 Passwörter, 25 unterschiedliche"] -->|35| B22_2[███████]
-    A30_1["30 Jahre: 55 Passwörter, 38 unterschiedliche"] -->|55| B30_1[███████████]
-    A30_2["30 Jahre: 60 Passwörter, 40 unterschiedliche"] -->|60| B30_2[████████████]
-    A35["35 Jahre: 55 Passwörter, 38 unterschiedliche"] -->|55| B35[███████████]
-    A40_1["40 Jahre: 50 Passwörter, 35 unterschiedliche"] -->|50| B40_1[█████████]
-    A40_2["40 Jahre: 48 Passwörter, 32 unterschiedliche"] -->|48| B40_2[████████]
-    A45["45 Jahre: 35 Passwörter, 25 unterschiedliche"] -->|35| B45[███████]
-    A50_1["50 Jahre: 20 Passwörter, 10 unterschiedliche"] -->|20| B50_1[███]
-    A50_2["50 Jahre: 25 Passwörter, 15 unterschiedliche"] -->|25| B50_2[████]
-    A55_1["55 Jahre: 10 Passwörter, 7 unterschiedliche"] -->|10| B55_1[█]
-    A55_2["55 Jahre: 12 Passwörter, 8 unterschiedliche"] -->|12| B55_2[██]
-    A60_1["60 Jahre: 10 Passwörter, 7 unterschiedliche"] -->|10| B60_1[█]
-    A60_2["60 Jahre: 8 Passwörter, 5 unterschiedliche"] -->|8| B60_2[█]
-    A65["65 Jahre: 8 Passwörter, 5 unterschiedliche"] -->|8| B65[█]
-    A70_1["70 Jahre: 5 Passwörter, 3 unterschiedliche"] -->|5| B70_1[ ]
-    A70_2["70 Jahre: 6 Passwörter, 4 unterschiedliche"] -->|6| B70_2[ ]
-```
+![Umfrage-Balkendiagramm](../Ressources/Survey_Data/Survey_BarChart.png)
 
-```markdown
-```mermaid
-%% Baumdiagramm für Passwortmanager-Kenntnis & einfache Passwörter
-graph TD;
-  A[Passwortmanager-Kenntnis] -->|Ja| B[14 Personen]
-  A -->|Nein| C[6 Personen]
-  D[Einfache Passwörter] -->|Ja| E[12 Personen]
-  D -->|Nein| F[8 Personen]
-```
+![Umfrage-Pie-Chart](../Ressources/Survey_Data/Survey_PieChart.png)
 
 ### Fazit der Analyse
 - Der Markt benötigt ein **zuverlässiges System**, das folgende Punkte abdeckt:  
