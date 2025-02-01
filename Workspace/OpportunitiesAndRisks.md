@@ -27,12 +27,16 @@
   - Weniger Passwörter werden genutzt, da diese Altersgruppe tendenziell seltener auf Online-Plattformen angemeldet ist.  
   - Meistens wird dasselbe, einfach zu merkende Passwort verwendet, oft mit der minimal erforderlichen Länge.
 
-## Umfrageergebnisse
-## Passwortanzahl vs. Unterschiedliche Passwörter
+## Umfrageergebnisse (20 Befragte Personen)
 
-![Umfrage-Balkendiagramm](../Ressources/Survey_Data/Survey_BarChart.png)
-
-![Umfrage-Pie-Chart](../Ressources/Survey_Data/Survey_PieChart.png)
+<div style="display: flex; justify-content: center; align-items: center;">
+    <div style="margin-right: 20px;">
+        <img src="../Ressources/Survey_Data/Survey_BarChart.png" alt="Survey BarChart" width="45%">
+    </div>
+    <div>
+        <img src="../Ressources/Survey_Data/Survey_PieChart.png" alt="Survey PieChart" width="45%">
+    </div>
+</div>
 
 ### Fazit der Analyse
 - Der Markt benötigt ein **zuverlässiges System**, das folgende Punkte abdeckt:  
