@@ -29,14 +29,9 @@
 
 ## Umfrageergebnisse (20 Befragte Personen)
 
-<div style="display: flex; justify-content: center; align-items: center;">
-    <div style="margin-right: 20px;">
-        <img src="../Ressources/Survey_Data/Survey_BarChart.png" alt="Survey BarChart" width="45%">
-    </div>
-    <div>
-        <img src="../Ressources/Survey_Data/Survey_PieChart.png" alt="Survey PieChart" width="45%">
-    </div>
-</div>
+| Bar-Chart | Pie-Chart |
+|------------------------|---------------------------|
+| ![Survey BarChart](../Ressources/Survey_Data/Survey_BarChart.png) | ![Survey PieChart](../Ressources/Survey_Data/Survey_PieChart.png) |
 
 ### Fazit der Analyse
 - Der Markt benötigt ein **zuverlässiges System**, das folgende Punkte abdeckt:  
