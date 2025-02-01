@@ -27,6 +27,44 @@
   - Weniger Passwörter werden genutzt, da diese Altersgruppe tendenziell seltener auf Online-Plattformen angemeldet ist.  
   - Meistens wird dasselbe, einfach zu merkende Passwort verwendet, oft mit der minimal erforderlichen Länge.
 
+## Umfrageergebnisse
+## Passwortanzahl vs. Unterschiedliche Passwörter
+
+```mermaid
+bar chart
+  title Passwortanzahl vs. Unterschiedliche Passwörter nach Alter
+  x-axis Alter
+  y-axis Anzahl
+  "18 Jahre" : 20, 15
+  "22 Jahre" : 40, 30
+  "22 Jahre" : 35, 25
+  "30 Jahre" : 55, 38
+  "30 Jahre" : 60, 40
+  "35 Jahre" : 55, 38
+  "40 Jahre" : 50, 35
+  "40 Jahre" : 48, 32
+  "45 Jahre" : 35, 25
+  "50 Jahre" : 20, 10
+  "50 Jahre" : 25, 15
+  "55 Jahre" : 10, 7
+  "55 Jahre" : 12, 8
+  "60 Jahre" : 10, 7
+  "60 Jahre" : 8, 5
+  "65 Jahre" : 8, 5
+  "70 Jahre" : 5, 3
+  "70 Jahre" : 6, 4
+  series Passwortanzahl, Unterschiedliche Passwörter
+```
+
+```mermaid
+pie chart
+  title Passwortmanager-Kenntnis und einfache Passwörter
+  "Kennt Passwortmanager - Ja" : 14
+  "Kennt Passwortmanager - Nein" : 6
+  "Verwendet einfache Passwörter - Ja" : 12
+  "Verwendet einfache Passwörter - Nein" : 8
+```
+
 ### Fazit der Analyse
 - Der Markt benötigt ein **zuverlässiges System**, das folgende Punkte abdeckt:  
   - Datenschutz  
@@ -36,6 +74,14 @@
 
 - **Zielgruppe erweitern**:  
   Es ist notwendig, auch die ältere Altersgruppe von den Vorteilen solcher Applikationen zu überzeugen, um Akzeptanz und Vertrauen zu schaffen.
+
+### Herausforderung: Benutzerfreundlichkeit und Interface-Design
+Eine häufige Schwachstelle der bestehenden Lösungen ist die Gestaltung der Benutzeroberfläche (UI) und die Benutzerfreundlichkeit (UX). 
+Viele in der Ausgangssituation genannten Passwortmanager sprechen entweder ausschließlich technisch veranlagte Nutzer an oder sind durch überladene Interfaces unnötig komplex.
+
+- **Überladene Interfaces**: Anbieter wie Dashlane und LastPass integrieren zahlreiche Zusatzfunktionen (z.B.: Dark-Web-Monitoring oder VPN's), die den eigentlichen Zweck der Software (sichere Passwortverwaltung) in den Hintergrund rücken.
+- **Eingeschränkte Zugänglichkeit**: Lösungen wie KeePassXC oder Bitwarden sind technisch und flexibel, aber für Anfänger oft schwer verständlich.
+- **Veraltetes Design**: Manche Anbieter (z. B. LastPass) setzen auf eine veraltete Optik, die nicht den Ansprüchen moderner Software-Nutzer entspricht.
 
 ## Risiko
 

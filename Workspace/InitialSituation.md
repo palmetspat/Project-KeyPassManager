@@ -1,4 +1,4 @@
-# Einführung
+# Ausganssituation
 In der heutigen digitalen Welt benötigen Menschen eine immer größere Anzahl an Passwörtern. Egal ob für IT-Applikationen oder alltägliche Aktivitäten – Authentifizierung in Form von Passwörtern ist unverzichtbar. Gleichzeitig spielt die Sicherheit dieser Passwörter eine zentrale Rolle, da sie den Zugang zu sensiblen persönlichen und beruflichen Daten schützen.
 Die steigende Komplexität und Anzahl an Passwörtern ergeben zahlreiche Herausforderungen: Viele Menschen greifen auf unsichere Praktiken zurück, um ihre Passwörter zu speichern, oder verlieren den Überblick über ihre Passwörter. Zusätzlich bergen Online-Speicherlösungen wie Cloud-Dienste oder unsichere Passwörter erhebliche Sicherheitsrisiken.
 
@@ -10,10 +10,7 @@ Das Bedürfnis nach einer unabhängigen, sicheren und einfach zu bedienenden Lö
 
 ---
 
-
-
 ### Marktanalyse: Softwareanbieter
-
 <details>
 <summary><strong>Tabellenansicht der Softwareanbieter (Zum Ein- und Ausklappen klicken)</strong></summary>
 
@@ -30,7 +27,6 @@ Das Bedürfnis nach einer unabhängigen, sicheren und einfach zu bedienenden Lö
 ---
 
 ### Marktanalyse: Website- / Cloud-Anbieter
-
 <details>
 <summary><strong>Tabellenansicht der Website- / Cloud-Anbieter (Zum Ein- und Ausklappen klicken)</strong></summary>
 
@@ -45,19 +41,3 @@ Das Bedürfnis nach einer unabhängigen, sicheren und einfach zu bedienenden Lö
 </details>
 
 ---
-
-
-
-### Herausforderung: Benutzerfreundlichkeit und Interface-Design
-
-Eine häufige Schwachstelle der bestehenden Lösungen ist die Gestaltung der Benutzeroberfläche (UI) und die Benutzerfreundlichkeit (UX). 
-Viele der oben genannten Passwortmanager sprechen entweder ausschließlich technisch veranlagte Nutzer an oder sind durch überladene Interfaces unnötig komplex.
-
-- **Überladene Interfaces**: Anbieter wie Dashlane und LastPass integrieren zahlreiche Zusatzfunktionen (z.B.: Dark-Web-Monitoring oder VPN's), die den eigentlichen Zweck der Software (sichere Passwortverwaltung) in den Hintergrund rücken.
-- **Eingeschränkte Zugänglichkeit**: Lösungen wie KeePassXC oder Bitwarden sind technisch und flexibel, aber für Anfänger oft schwer verständlich.
-- **Veraltetes Design**: Manche Anbieter (z. B. LastPass) setzen auf eine veraltete Optik, die nicht den Ansprüchen moderner Software-Nutzer entspricht.
-
-Die Marktsituation zeigt, dass ein Bedarf an einer Lösung besteht, die folgende Merkmale kombiniert:
-1. **Maximale Sicherheit durch Selbst-Hosting und lokale Datenhaltung.**
-2. **Einfaches, intuitives Interface, das sowohl technisch veranlagte als auch unerfahrene Nutzer anspricht.**
-3. **Flexibilität und Anpassungsfähigkeit, um individuelle Benutzeranforderungen zu erfüllen.**
