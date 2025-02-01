@@ -47,7 +47,7 @@ Um diese Zielgruppe zu erreichen, sind einfache Bedienbarkeit und Vertrauensbild
   - Da der Passwortmanager primär lokal arbeitet, muss sichergestellt werden, dass der Zugriff **jederzeit und ohne Internetverbindung** funktioniert.
   - Falls ein optionaler Server später integriert wird, ist eine **Backup-Lösung** nötig, um Datenverlust zu vermeiden.
 
-### Technische Risiken: Benutzerfreundlichkeit & UX
+### Technische Risiken: Benutzerfreundlichkeit & User Experience
 - **Überladene Interfaces**:  
   - Manche Passwortmanager bieten zu viele Funktionen auf einmal, was für unerfahrene Nutzer verwirrend sein kann.
 - **Eingeschränkte Zugänglichkeit**:  
