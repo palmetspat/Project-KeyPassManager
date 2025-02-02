@@ -2,21 +2,21 @@
 
 ## Technische Bedingungen
 - **Speicherung:**  
-  - **In Version 1 nur lokale Speicherung auf dem eigenen Gerät.**  
-  - **Optionale Server-Synchronisation erst für spätere Versionen geplant.**  
-  - **Es wird kein externer Anbieter genutzt, Nutzer hat volle Datenkontrolle.**  
+  - In der **ersten Version** werden Passwörter **ausschließlich lokal auf dem eigenen Gerät** gespeichert.  
+  - Eine **optionale Server-Speicherung ist für zukünftige Versionen geplant**, aber es wird **kein externer Anbieter genutzt.**   
+  - Bei der Erstellung des Master-Passworts werden **10 Wiederherstellungscodes generiert**, die einmalig gespeichert werden. Falls das Master-Passwort und alle Wiederherstellungscodes verloren gehen, gibt es **keine Möglichkeit zur Wiederherstellung**.
 
 - **Plattformen:**  
-  - **Primärentwicklung für Windows als Desktop-Anwendung.**  
-  - **Linux & macOS-Unterstützung für spätere Versionen vorgesehen.**  
-  - **AutoFill-Funktion für Windows-App sofort verfügbar.**  
-  - **Webbrowser-Integration (Chrome, Firefox, Edge) erst in späteren Versionen geplant.**  
-  - **Optimiert für ältere Geräte mit begrenzter Leistung & Speicherplatz.**  
+  - **Primärentwicklung für Windows** als Desktop-Anwendung.  
+  - **Linux & macOS Unterstützung ist für spätere Versionen vorgesehen.**  
+  - **Webbrowser-Integration (Chrome, Firefox, Edge)** für AutoFill-Funktion geplant, jedoch nicht in Version 1 enthalten.  
+  - **Optimiert für ältere Geräte** mit begrenzter Leistung & Speicherplatz.  
 
 - **Sicherheit:**  
-  - **AES-256-Verschlüsselung für gespeicherte Passwörter.**  
-  - **TLS-Verschlüsselung für sichere Datenübertragungen.**  
+  - **AES-256-Verschlüsselung** für gespeicherte Passwörter.  
+  - **TLS-Verschlüsselung** für sichere Datenübertragungen.  
   - **Keine unverschlüsselte Speicherung oder Übertragung von Passwörtern.**  
+  - **Master-Passwort und Wiederherstellungscodes sind die einzigen Möglichkeiten zur Entschlüsselung.**  
 
 ## Systemanforderungen
 - **Hardware:**  
@@ -25,23 +25,28 @@
 
 - **Software:**  
   - Keine zusätzlichen Programme erforderlich.  
-  - **Optionale Server-Funktion wird später hinzugefügt.**  
+  - **Optional wird in späteren Versionen eine Server-Option bereitgestellt.**  
   - **Geringer Speicherbedarf**, um auf Geräten mit wenig freiem Speicher installierbar zu sein.  
 
 ## Einschränkungen der ersten Version
 - **Nur lokale Speicherung, keine Server- oder Cloud-Lösung.**  
 - **Nur Windows-Desktop, keine mobile Version.**  
-- **Plattformübergreifende Nutzung (Linux, macOS, Web) erst in späteren Versionen.**  
-- **Keine automatische Synchronisation – kommt erst in späteren Versionen.**  
+- **Plattformübergreifende Nutzung (Linux, macOS, Web) ist für spätere Versionen vorgesehen.**  
+- **AutoFill-Funktion nur für die Windows-App, nicht für Browser.**  
+- **10 Wiederherstellungscodes werden einmalig generiert, aber nicht erneut abrufbar.**  
 
 ## Speicherung & Hosting
-- **Version 1 speichert alle Daten ausschließlich lokal.**  
-- **Synchronisation über einen eigenen Server ist später möglich, aber kein externer Anbieter involviert.**  
-- **Kein Cloud-Hosting – volle Kontrolle bleibt beim Nutzer.**  
+- **In Version 1 werden alle Daten lokal gespeichert.**  
+- **Ein Server-Support für Synchronisation ist für eine spätere Version geplant.**  
+- **Es wird kein externer Hosting-Dienst genutzt – Nutzer behalten volle Kontrolle über ihre Daten.**  
 
 ## Plattformintegration & AutoFill
-- **Automatische Erkennung von Login-Feldern in Desktop- und Web-Anwendungen.**  
-- **AutoFill für die Windows-App sofort verfügbar.**  
-- **Browser-Integration für AutoFill kommt erst in einer späteren Version.**  
-- **Funktion kann vom Nutzer deaktiviert werden.**  
+- **Automatische Erkennung von Login-Feldern in der Windows-App.**  
+- **Browser-Integration für AutoFill ist vorgesehen, aber nicht in Version 1 enthalten.**  
 - **Optimiert für ältere Systeme, kein dauerhaft hoher Ressourcenverbrauch.**  
+
+---
+**Zusammenfassung:**
+Die erste Version des Passwortmanagers konzentriert sich auf **lokale Speicherung**, hohe **Sicherheit durch AES-256-Verschlüsselung** und eine **einfache Bedienbarkeit**. 
+Es gibt **keine Cloud-Abhängigkeit** und der Nutzer erhält **10 Wiederherstellungscodes**, um sich abzusichern. 
+Zukünftige Versionen können **optionale Server-Synchronisation, plattformübergreifende Nutzung und eine Browser-Integration** enthalten.
