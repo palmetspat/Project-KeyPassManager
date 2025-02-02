@@ -46,7 +46,4 @@
 - **Optimiert für ältere Systeme, kein dauerhaft hoher Ressourcenverbrauch.**  
 
 ---
-**Zusammenfassung:**
-Die erste Version des Passwortmanagers konzentriert sich auf **lokale Speicherung**, hohe **Sicherheit durch AES-256-Verschlüsselung** und eine **einfache Bedienbarkeit**. 
-Es gibt **keine Cloud-Abhängigkeit** und der Nutzer erhält **10 Wiederherstellungscodes**, um sich abzusichern. 
-Zukünftige Versionen können **optionale Server-Synchronisation, plattformübergreifende Nutzung und eine Browser-Integration** enthalten.
+
