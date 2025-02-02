@@ -53,9 +53,6 @@ Unser Passwortmanager soll einfach und sicher nutzbar sein. Der Fokus liegt dara
 - **Automatische Sperre nach Inaktivität** zur Erhöhung der Sicherheit.  
 - **Passwort-Wiederherstellung:** Falls das Master-Passwort vergessen wird, können die **10 bei der Installation generierten Wiederherstellungscodes** verwendet werden. Ohne diese Codes ist eine Wiederherstellung nicht möglich.  
 
-## **Erweiterbarkeit**
-- **Modular aufgebaut**, um zukünftige Funktionen wie Synchronisation, Team-Zugriff oder mobile Apps zu integrieren.  
-
 ---
 
 ## **Nicht im ersten Release enthalten (zukünftig geplant)**
