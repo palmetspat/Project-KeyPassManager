@@ -14,8 +14,6 @@ Unser Ziel ist es, einen sicheren und benutzerfreundlichen Passwortmanager zu en
 - **Web-Anwendung**, um Passwörter plattformübergreifend zu nutzen (nicht in Version 1 enthalten).  
 - **Optionale Server-Synchronisation**, um Passwörter geräteübergreifend zu nutzen.  
 - **Mobile Version für iOS & Android (zukünftig geplant, nicht in Version 1 enthalten).**  
-- **Browser-Erweiterung für AutoFill** zur Erkennung und Speicherung von Passwörtern direkt im Web.  
-- **Erweiterte Sicherheitsfunktionen**, z. B. Zwei-Faktor-Authentifizierung.  
 
 ---
 
