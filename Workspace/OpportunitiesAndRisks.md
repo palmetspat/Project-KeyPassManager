@@ -1,6 +1,6 @@
 # Chancen und Risiken des Projektes
 
-## Konzept für die Entwicklung eines Passwort Managers
+## Konzept für die Entwicklung des Passwort Managers
 
 ### Finanzielle und technische Rahmenbedingungen
 
