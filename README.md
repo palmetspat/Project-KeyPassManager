@@ -1,6 +1,8 @@
 <div align="center">
   <h1> Key Vault - Password Manager </h1>
   <img src="/Ressources/Pictures/KeyVault-Logo.png" alt="KeyVaultLogo" width="500">
+
+    **Erstellt von: Dominic Kappelmayer | Patrick Palmetshofer | Christoph Kern**
 </div>
 
 ---
