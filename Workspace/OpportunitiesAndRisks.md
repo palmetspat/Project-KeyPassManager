@@ -90,11 +90,9 @@ Um diese Zielgruppe zu erreichen, sind einfache Bedienbarkeit und Vertrauensbild
 ### Fazit
 Das Projekt bietet eine **klare Chance**, sich von bestehenden Lösungen abzuheben, indem es sich auf **Datenschutz, einfache Bedienung und lokale Speicherung** fokussiert. Gleichzeitig müssen **technische Herausforderungen** (Benutzerfreundlichkeit, Sicherheitsmechanismen) sorgfältig berücksichtigt werden, um das Vertrauen der Nutzer zu gewinnen und eine nachhaltige Lösung bereitzustellen.
 
-## Konzepte und Ziele
+## Ziele
 
-Das Hauptziel des Passwortmanagers ist es, den Benutzern zu ermöglichen, ihre Passwörter sicher zu speichern und zu verwalten, ohne dass sie sich diese ständig merken müssen. Dabei wird die Sicherheit, Benutzerfreundlichkeit und der Komfort für die Nutzer maximiert, während gleichzeitig der Datenschutz und die Kontrolle gewährleistet wird.
-
-Das Konzept zielt darauf ab, dem Benutzer maximale Sicherheit, Benutzerfreundlichkeit und Flexibilität zu garantieren, während gleichzeitig der Schutz vor Cyberangriffen wie Phishing und Passwortdiebstahl gewährleistet wird. Dabei ergeben sich folgende essentielle Punkte, die bei der Entwicklung beachtet werden müssen:
+Die Ziele des Passwortmanagers sind es, den Benutzern zu ermöglichen, dass sie ihre Passwörter sicher speichern und verwalten können, ohne dass sie sich diese ständig merken müssen. Dabei werden die Sicherheit, Benutzerfreundlichkeit und der Komfort für die Nutzer maximiert, während gleichzeitig der Datenschutz und die Kontrolle seitens des Users gewährleistet wird. Außerdem soll der Schutz vor Cyberangriffen wie Phising und Passwortdiebstahl an oberster Stelle stehen. Dadurch ergeben sich folgende Punkte, die essentiell sind und bei der Entwicklung nicht vernachlässigt werden dürfen! 
 
 ### Sicherheit
 
