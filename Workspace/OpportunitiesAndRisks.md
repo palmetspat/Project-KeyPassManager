@@ -1,5 +1,67 @@
 # Chancen und Risiken des Projektes
 
+## Konzept für die Entwicklung eines Passwort Managers
+
+### Finanzielle und technische Rahmenbedingungen
+
+#### 1. Software und Entwicklungstools
+- **IDE (Integrated Development Environment)**: Kostenlose Versionen wie Visual Studio Code oder JetBrains IntelliJ IDEA können genutzt werden. Falls erweiterte Funktionen benötigt werden, können kostenpflichtige Versionen in Betracht gezogen werden.
+  - **Kosten**: 0 € – 500 € (für professionelle Lizenzen, falls erforderlich)
+  
+- **Bibliotheken und Frameworks**: Open-Source-Tools wie OpenSSL für die Verschlüsselung oder andere bestehende Authentifizierungsframeworks können verwendet werden.
+  - **Kosten**: 0 € – 500 € (für spezielle kommerzielle Lizenzen oder API-Nutzung)
+  
+- **Versionierung und Codeverwaltung**: Plattformen wie GitHub oder GitLab bieten kostenlose Repositories an. Für private Repositories fallen ggf. Kosten an, aber dies kann minimiert werden.
+  - **Kosten**: 0 € – 100 € pro Jahr (wenn private Repositories benötigt werden)
+
+#### 2. Server und Infrastruktur
+- **Web-Hosting und Datenbanken**: Wenn ein Cloud-Backend benötigt wird, können Cloud-Dienstleister wie AWS, Azure oder Google Cloud genutzt werden. Diese Anbieter bieten oft ein gewisses Freikontingent für kleine Anwendungen.
+  - **Kosten**: 0 € – 500 € pro Jahr (je nach Nutzung)
+  
+- **Datenverschlüsselung und Sicherung**: Open-Source-Tools zur sicheren Datenhaltung und Backup-Systeme (z. B. verschlüsselte Datenbanken oder Dateispeicherung).
+  - **Kosten**: 0 € – 200 € pro Jahr
+
+#### 3. Marketing und Branding
+- **Website und Domain**: Eine einfache Website für die Vorstellung des Passwort Managers und für Downloads. Kosten für Domain und Hosting.
+  - **Kosten**: 10 € – 100 € pro Jahr (je nach Anbieter)
+  
+- **Social Media und Werbeanzeigen**: Für die Promotion des Passwort Managers können Social Media Marketing oder bezahlte Werbeanzeigen auf Plattformen wie Google Ads oder Facebook genutzt werden.
+  - **Kosten**: 100 € – 500 € (initiales Marketingbudget)
+  
+- **App Store Gebühren**: Wenn der Passwort Manager als mobile App angeboten wird, fallen App Store Gebühren an (Apple Developer Program oder Android).
+  - **Kosten**: 100 € – 400 € einmalig (je nach Plattform)
+
+#### 4. Sonstige Kosten
+- **Rechtliche Beratung**: Rechtliche Aspekte wie Datenschutzbestimmungen (z. B. DSGVO) oder AGBs müssen berücksichtigt werden. Eine eventuelle Beratung durch einen Anwalt könnte notwendig sein.
+  - **Kosten**: 200 € – 1.000 € einmalig (je nach Bedarf)
+
+#### Zusammenfassung des Budgets
+- **Minimal (nur für Entwicklung und kostenlose Tools)**: 0 € – 500 €
+- **Moderate Investition (inkl. Marketing und kleinen Lizenzgebühren)**: 500 € – 2.500 €
+- **Höhere Investition (mit Servern, professionellen Tools und umfangreicher Werbung)**: 2.500 € – 5.000 €
+
+Das Budget kann je nach spezifischen Anforderungen und dem geplanten Umfang des Projekts variieren. Open-Source-Software hilft jedoch, die Kosten erheblich zu reduzieren. Marketing und Infrastruktur können je nach Zielgruppe und Umfang eine größere Rolle spielen.
+
+### Technische Rahmenbedingungen
+
+### Plattformen und Technologien
+Der Passwortmanager soll für mehrere Plattformen entwickelt werden: Windows, macOS, Android und iOS. Es wird eine plattformübergreifende Lösung mit Technologien wie **Flutter** oder **React Native** angestrebt, um sowohl mobile als auch Desktop-Versionen mit einer einzigen Codebasis zu erstellen. Für die Backend-Entwicklung werden **Node.js** oder **Python** verwendet, da diese Technologien eine hohe Flexibilität bieten und gut mit Cloud-Lösungen harmonieren.
+
+#### Sicherheit
+Die Sicherheit der Nutzerdaten hat höchste Priorität. Alle Passwörter und sensiblen Daten werden verschlüsselt gespeichert:
+- **Verschlüsselung**: AES-256-Algorithmus für die Datenverschlüsselung.
+- **Passwortschutz**: Hashing mit Salt unter Verwendung von **bcrypt** oder **Argon2**, um Passwörter vor unbefugtem Zugriff zu schützen. Diese Algorithmen sind resistent gegen Angriffe wie Brute-Force- und Rainbow-Table-Angriffe.
+
+#### Synchronisation
+Der Passwortmanager soll Daten über verschiedene Geräte hinweg synchronisieren können, um eine nahtlose Benutzererfahrung zu bieten. Cloud-Storage-Lösungen wie **Google Cloud**, **AWS** oder **Azure** werden genutzt, wobei die Daten sowohl in der Cloud als auch während der Übertragung (durch SSL/TLS) verschlüsselt sind. Nutzer haben zudem die Möglichkeit, ihre Daten lokal zu speichern, falls sie keine Cloud-Synchronisation wünschen.
+
+#### Benutzerfreundlichkeit
+Die Benutzeroberfläche wird schlicht und intuitiv gestaltet, sodass Nutzer den Passwortmanager ohne große Lernkurve verwenden können. Es wird auf ein modernes, minimalistisches Design gesetzt, das auf mobilen Geräten und Desktops gut funktioniert. Wichtige Funktionen wie das Hinzufügen, Bearbeiten und Abrufen von Passwörtern sind einfach und schnell zugänglich. Eine Suchfunktion ermöglicht den Nutzern, Passwörter und Anmeldedaten schnell zu finden.
+
+#### Datenschutz und Compliance
+Der Passwortmanager wird alle relevanten Datenschutzbestimmungen einhalten, insbesondere die **DSGVO**. Nur die notwendigsten Daten werden gesammelt, und es erfolgt keine Weitergabe sensibler Informationen ohne ausdrückliche Zustimmung des Nutzers. Alle Nutzerdaten werden verschlüsselt gespeichert, und Nutzer haben die vollständige Kontrolle über ihre Daten, einschließlich der Möglichkeit, diese zu exportieren oder zu löschen. Zusätzlich wird eine **Zwei-Faktor-Authentifizierung (2FA)** implementiert, um die Sicherheit weiter zu erhöhen.
+
+
 ## Chancen 
 
 ### Marktanalyse
