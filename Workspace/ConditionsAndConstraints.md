@@ -2,48 +2,41 @@
 
 ## Technische Bedingungen
 - **Speicherung:**  
-  - Passwörter werden **lokal auf dem Gerät** oder **auf einem sicheren, vom Nutzer verwalteten Server** gespeichert.  
-  - Eine zentrale Serverlösung ist in der ersten Version nicht vorgesehen, aber eine **optionale Synchronisation über eigene Server** ist später möglich.  
+  - Passwörter werden **lokal auf dem Gerät** oder **optional auf einem eigenen Server** gespeichert.  
+  - **Keine zentrale Cloud-Speicherung**, um Datenschutzrisiken zu vermeiden.  
+  - Spätere Versionen könnten eine **optionale Synchronisation über eigene Server** ermöglichen.  
+
 - **Plattformen:**  
-  - **Primärentwicklung für Windows** als Desktop-Anwendung  
-  - **Unterstützung für gängige Webbrowser** (Chrome, Firefox, Edge) für eine optionale Web-Anwendung  
-  - **Muss auch auf älteren Geräten mit begrenzter Leistung und Speicherplatz stabil laufen**  
-  - **Erweiterung für Linux & macOS in späteren Versionen geplant**  
+  - **Primärentwicklung für Windows** als Desktop-Anwendung.  
+  - **Unterstützung für Linux & macOS ist für spätere Versionen geplant.**  
+  - **Webbrowser-Integration (Chrome, Firefox, Edge)** für AutoFill-Funktion vorgesehen.  
+  - **Optimiert für ältere Geräte** mit begrenzter Leistung & Speicherplatz.  
+
 - **Sicherheit:**  
-  - Alle gespeicherten Daten werden mit **AES-256** verschlüsselt  
-  - **TLS-Verschlüsselung** sichert die Datenübertragung  
-  - **Keine unverschlüsselte Speicherung oder Übermittlung** von Passwörtern  
-  - **AutoFill-Funktion:** Die Software erkennt Anmeldefelder und bietet die automatische Speicherung von Zugangsdaten an  
+  - **AES-256-Verschlüsselung** für gespeicherte Passwörter.  
+  - **TLS-Verschlüsselung** für sichere Datenübertragungen.  
+  - **Keine unverschlüsselte Speicherung oder Übertragung von Passwörtern.**  
 
 ## Systemanforderungen
 - **Hardware:**  
-  - Unterstützung für **Windows 7 und neuer**, um auch ältere und leistungsschwächere Geräte zu unterstützen  
-  - **Optimierung für Systeme mit wenig Arbeitsspeicher und schwächerer Prozessorleistung**  
-  - Keine hohe CPU- oder GPU-Belastung, damit auch ältere PCs nutzbar sind  
+  - Unterstützung für **Windows 7 und neuer**, um auch ältere und leistungsschwächere Geräte zu unterstützen.  
+  - **Geringe CPU- und Speicherbelastung**, damit auch ältere PCs kompatibel sind.  
+
 - **Software:**  
-  - Keine zusätzlichen Programme erforderlich, außer ein **optionaler Server** für Synchronisation  
-  - **Geringer Speicherbedarf**, um auch auf Geräten mit wenig freiem Speicher installierbar zu sein  
+  - Keine zusätzlichen Programme erforderlich, außer ein **optionaler eigener Server für Synchronisation.**  
+  - **Geringer Speicherbedarf**, um auf Geräten mit wenig freiem Speicher installierbar zu sein.  
 
-## Einschränkungen
-- Die erste Version konzentriert sich ausschließlich auf die **Windows-Desktop-Anwendung**, andere Plattformen werden später ergänzt  
-- Eine **Server-Lösung ist kein Hauptziel**, wird aber später als Option ermöglicht  
-- **Keine mobile Version oder erweiterte Synchronisation in der ersten Veröffentlichung**  
-- **Plattformübergreifende Nutzung wird nur für offiziell unterstützte Betriebssysteme getestet**  
-- **Keine ressourcenintensiven Prozesse**: Software wird so entwickelt, dass sie wenig RAM und Prozessorleistung benötigt  
+## Einschränkungen der ersten Version
+- **Nur Windows-Desktop, keine mobile Version.**  
+- **Keine zentrale Cloud-Speicherung, nur lokale Datenverwaltung.**  
+- **Plattformübergreifende Nutzung (Linux, macOS, Web) ist für spätere Versionen vorgesehen.**  
 
-## Wer ist der Host?
-- Die Anwendung ist primär **Self-Hosted**, das bedeutet, dass der Nutzer selbst entscheidet, ob die Daten **lokal oder auf einem eigenen Server** gespeichert werden  
-- Eine zentrale Hosting-Lösung durch einen externen Anbieter ist in **Version 1 nicht vorgesehen**  
-- Eine **optionale Hosting-Variante könnte in einer späteren Version** implementiert werden  
+## Speicherung & Hosting
+- **Nutzer entscheidet über lokale oder serverbasierte Speicherung.**  
+- **Keine zentrale Server-Lösung**, um Datenschutzrisiken zu vermeiden.  
+- **Optional kann der Nutzer einen eigenen Server nutzen, aber kein Fremdanbieter wird verwendet.**  
 
-## Plattformintegration und AutoFill
-Ein wesentliches Feature ist die **AutoFill-Funktion**, die automatisch erkennt, wenn der Nutzer sich auf einer Website oder in einer App anmeldet. Dabei wird gefragt, ob die eingegebenen Zugangsdaten gespeichert werden sollen.  
-
-**Technische Umsetzung:**  
-- Webbrowser-Integration über eine Erweiterung  
-- Desktop-Integration durch laufende Erkennung von Eingabefeldern  
-
-**Nutzerkontrolle:**  
-- AutoFill kann manuell aktiviert oder deaktiviert werden  
-- Alle gespeicherten Daten bleiben verschlüsselt und lokal gesichert  
-- **Optimierung für ältere Geräte**: Keine dauerhafte hohe Hintergrundlast durch AutoFill-Scanning  
+## Plattformintegration & AutoFill
+- **Automatische Erkennung von Login-Feldern in Desktop- und Web-Anwendungen.**  
+- **Browser-Integration für AutoFill ist vorgesehen, kann aber deaktiviert werden.**  
+- **Optimiert für ältere Systeme, kein dauerhaft hoher Ressourcenverbrauch.**  
