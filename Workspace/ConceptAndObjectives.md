@@ -41,12 +41,21 @@ Unser Konzept basiert auf einer modularen und flexiblen Architektur, die es erm�
 - **Schnelle Suchfunktion**, um gespeicherte Passwörter leicht zu finden.
 - **Import/Export-Funktion**, um bestehende Passwörter zu übernehmen.
 
+### **Benutzungskonzept**
+Unser Passwortmanager soll einfach und sicher nutzbar sein. Der Fokus liegt darauf, dass auch unerfahrene Nutzer Passwörter sicher verwalten können, ohne komplexe technische Vorkenntnisse zu benötigen.
+
+- **Erstnutzung:** Nutzer erstellt ein Master-Passwort, mit dem alle gespeicherten Passwörter geschützt werden.
+- **Passwort speichern:** Neue Passwörter können manuell eingegeben oder automatisch erkannt und gespeichert werden.
+- **Passwort abrufen:** Der Nutzer kann gespeicherte Passwörter über eine Suchfunktion schnell finden.
+- **Autofill-Funktion:** Gespeicherte Passwörter können automatisch in Login-Felder eingefügt werden.
+- **Automatische Sperre nach Inaktivität** zur Erhöhung der Sicherheit.
+
 ## **Erweiterbarkeit**
 - Modular aufgebaut, um zukünftige Funktionen **wie Synchronisation, Team-Zugriff oder mobile Apps** zu integrieren.
 
 ---
 
-# **Nicht im ersten Release enthalten (zukünftig geplant)**
+## **Nicht im ersten Release enthalten (zukünftig geplant)**
 - **Keine mobile Version** in der ersten Version.
 - **Keine zentrale Cloud-Speicherung** (lokale Speicherung bleibt Fokus).
 - **Kein Team-Management** – der Fokus liegt zunächst auf Einzelbenutzer. 
