@@ -1,74 +1,64 @@
 # Projektziele
 
-Unser Ziel ist es, einen sicheren und benutzerfreundlichen Passwortmanager zu entwickeln, der unabhängig von Drittanbietern funktioniert und dem Nutzer die volle Kontrolle über seine gespeicherten Passwörter gibt.
+Unser Ziel ist es, einen sicheren und benutzerfreundlichen Passwortmanager zu entwickeln, der unabhängig von Drittanbietern funktioniert und die Kontrolle über gespeicherte Passwörter vollständig dem Nutzer überlässt.
 
 ## **Kurzfristige Ziele (erste Version)**
-- Entwicklung einer **Windows-Desktop-Anwendung** zur sicheren Speicherung von Passwörtern.
-- **Lokale Speicherung mit End-to-End-Verschlüsselung** (AES-256).
-- **Einfache Bedienbarkeit**, um auch für Nicht-Techniker nutzbar zu sein.
-- **Kein Cloud-Zwang** – Passwörter bleiben ausschließlich auf dem eigenen Gerät gespeichert.
-- **Import & Export-Funktion**, um bestehende Passwörter einfach zu übernehmen.
-- **AutoFill-Funktion**, um Passwörter direkt in Login-Felder einfügen zu können.
-- **Optimierung für ältere Geräte**, damit die Software auch auf leistungsschwächeren Systemen stabil läuft.
+- Entwicklung einer **Windows-Desktop-Anwendung** zur sicheren Speicherung von Passwörtern.  
+- **Lokale Speicherung mit End-to-End-Verschlüsselung** (AES-256), keine Cloud-Abhängigkeit.  
+- **Einfache Bedienbarkeit**, um auch für Nicht-Techniker nutzbar zu sein.  
+- **Import & Export-Funktion**, um bestehende Passwörter einfach zu übertragen.  
+- **AutoFill-Funktion** für Login-Felder, kann vom Nutzer aktiviert oder deaktiviert werden.  
 
 ## **Langfristige Ziele (zukünftige Erweiterungen)**
-- **Web-Anwendung**, um Passwörter plattformübergreifend zu nutzen.
-- **Mobile App für iOS & Android**.
-- **Optionale Synchronisation über einen eigenen Server**, ohne Abhängigkeit von Cloud-Diensten.
-- **Automatische Speicherung von Passwörtern**, wenn sich Nutzer in neue Dienste einloggen.
-- **Integration von Zwei-Faktor-Authentifizierung (2FA)** zur zusätzlichen Sicherheit.
+- **Web-Anwendung** für plattformübergreifende Nutzung (nicht in Version 1 enthalten).  
+- **Optionale Server-Synchronisation**, um Passwörter geräteübergreifend zu nutzen.  
+- **Mobile Version für iOS & Android (zukünftig geplant, nicht in Version 1 enthalten).**  
+- **Erweiterte Sicherheitsfunktionen**, z. B. Zwei-Faktor-Authentifizierung.  
 
 ---
 
-# **Systemkonzept**
+# Systemkonzept
 
-Unsere Software basiert auf einer modularen und flexiblen Architektur, die eine lokale Nutzung ermöglicht, aber auch eine optionale Server-Unterstützung bietet.
+Unser Konzept basiert auf einer modularen und flexiblen Architektur, die es ermöglicht, die Anwendung sowohl lokal als auch später optional über einen Server zu nutzen.
 
 ## **Plattformen**
-- **Windows-Desktop-Anwendung** als erste Version.
-- **Linux & macOS-Unterstützung** (geplant für spätere Versionen).
-- **Docker-Compose für eine einfache Installation**.
-- **Web-Anwendung** (zukünftig für plattformübergreifende Nutzung vorgesehen).
+- **Windows-Desktop-Anwendung** (erste Version).  
+- **Linux & macOS-Unterstützung (zukünftig geplant)**.  
+- **Docker-Compose für einfache Installation**.  
+- **Web-Anwendung und Serveroption für spätere Versionen geplant**.  
 
 ## **Speicherung**
-- **Lokale Speicherung mit Verschlüsselung** auf dem Endgerät.
-- **Optionale Server-Unterstützung** für eigene Hosting-Lösungen (kein externer Cloud-Zwang).
-- **AES-256-Verschlüsselung** zum Schutz der gespeicherten Daten.
+- **In Version 1 nur lokale Speicherung** auf dem Gerät.  
+- **Optionale Server-Synchronisation** wird später eingeführt, aber kein Cloud-Zwang.  
+- **AES-256-Verschlüsselung** zum Schutz der gespeicherten Daten.  
 
 ## **Sicherheit**
-- **End-to-End-Verschlüsselung** für die Kommunikation zwischen Geräten.
-- **Keine unverschlüsselte Speicherung oder Übertragung von Passwörtern**.
-- **Unterstützung für SSL/TLS**, um die Kommunikation abzusichern.
-- **Automatische Sperre nach Inaktivität**, um unbefugten Zugriff zu verhindern.
+- **End-to-End-Verschlüsselung** bei Datenübertragungen.  
+- Keine **unverschlüsselte Speicherung oder Weitergabe** von Passwörtern.  
+- Unterstützung für **SSL/TLS** zur sicheren Kommunikation.  
 
 ## **Benutzerfreundlichkeit**
-- **Einfache Bedienung** für Nutzer ohne technisches Wissen.
-- **Schnelle Suchfunktion**, um gespeicherte Passwörter leicht zu finden.
-- **Import/Export-Funktion**, um bestehende Passwort-Datenbanken zu übernehmen.
+- **Einfache Bedienung** für alle Nutzergruppen.  
+- **Schnelle Suchfunktion**, um gespeicherte Passwörter leicht zu finden.  
+- **Import/Export-Funktion**, um bestehende Passwörter zu übernehmen.  
+- **AutoFill-Funktion** erkennt Login-Felder und kann Passwörter automatisch einfügen. Die Funktion kann vom Nutzer aktiviert oder deaktiviert werden.  
 
 ### **Benutzungskonzept**
-Unser Passwortmanager soll für alle Nutzer leicht verständlich sein und eine sichere Verwaltung ermöglichen.
+Unser Passwortmanager soll einfach und sicher nutzbar sein. Der Fokus liegt darauf, dass auch unerfahrene Nutzer Passwörter sicher verwalten können, ohne komplexe technische Vorkenntnisse zu benötigen.
 
-- **Erstnutzung:**  
-  - Nutzer erstellt ein **Master-Passwort**, das alle gespeicherten Passwörter schützt.  
-- **Passwort speichern:**  
-  - Manuelle Eingabe oder automatische Speicherung durch AutoFill.  
-- **Passwort abrufen:**  
-  - Nutzer kann Passwörter über eine **Suchfunktion** schnell finden und abrufen.  
-- **AutoFill-Funktion:**  
-  - Gespeicherte Passwörter können **direkt in Login-Felder** eingefügt werden.  
-- **Sicherheitseinstellungen:**  
-  - Automatische Sperre der Anwendung nach einer bestimmten Inaktivitätszeit.  
+- **Erstnutzung:** Nutzer erstellt ein Master-Passwort, mit dem alle gespeicherten Passwörter geschützt werden.  
+- **Passwort speichern:** Neue Passwörter können manuell eingegeben oder automatisch erkannt und gespeichert werden.  
+- **Passwort abrufen:** Der Nutzer kann gespeicherte Passwörter über eine Suchfunktion schnell finden.  
+- **Automatische Sperre nach Inaktivität** zur Erhöhung der Sicherheit.  
 
 ## **Erweiterbarkeit**
-- **Modularer Aufbau**, um künftige Funktionen wie **Synchronisation, Team-Zugriff oder mobile Apps** einfach zu integrieren.
-- Möglichkeit zur **Anpassung an verschiedene Betriebssysteme** in späteren Versionen.
+- **Modular aufgebaut**, um zukünftige Funktionen wie Synchronisation, Team-Zugriff oder mobile Apps zu integrieren.  
 
 ---
 
 ## **Nicht im ersten Release enthalten (zukünftig geplant)**
-- **Mobile Version** für iOS & Android.
-- **Zentrale Cloud-Speicherung** (fokus bleibt auf lokaler Speicherung).
-- **Team-Management** (Erste Version ist für Einzelbenutzer gedacht).
-- **Erweiterte Web-Version** mit zusätzlichen Features.
-
+- **Keine mobile Version in der ersten Version**.  
+- **Keine zentrale Cloud-Speicherung, nur lokale Datenverwaltung**.  
+- **Plattformübergreifende Nutzung erst in späteren Versionen geplant**.  
+- **Optionale Server-Synchronisation erst für spätere Versionen vorgesehen**.  
+- **Kein Team-Management – der Fokus liegt zunächst auf Einzelbenutzer.**  
