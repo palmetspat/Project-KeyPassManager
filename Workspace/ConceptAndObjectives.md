@@ -8,6 +8,7 @@ Unser Ziel ist es, einen sicheren und benutzerfreundlichen Passwortmanager zu en
 - **Einfache Bedienbarkeit**, um auch für Nicht-Techniker nutzbar zu sein.  
 - **Import & Export-Funktion**, um bestehende Passwörter einfach zu übertragen.  
 - **AutoFill-Funktion in der Windows-App**, um Login-Felder automatisch auszufüllen (deaktivierbar).  
+- **10 einmalige Wiederherstellungscodes** werden bei der Installation generiert, um das Master-Passwort im Notfall zurücksetzen zu können.  
 
 ## **Langfristige Ziele (zukünftige Erweiterungen)**
 - **Web-Anwendung**, um Passwörter plattformübergreifend zu nutzen (nicht in Version 1 enthalten).  
@@ -37,6 +38,7 @@ Unser Konzept basiert auf einer modularen und flexiblen Architektur, die es erm�
 - **End-to-End-Verschlüsselung** bei Datenübertragungen.  
 - **Keine unverschlüsselte Speicherung oder Weitergabe** von Passwörtern.  
 - **Unterstützung für SSL/TLS** zur sicheren Kommunikation.  
+- **Master-Passwort kann nicht zurückgesetzt werden, außer mit den generierten Wiederherstellungscodes.**  
 
 ## **Benutzerfreundlichkeit**
 - **Einfache Bedienung** für alle Nutzergruppen.  
@@ -51,6 +53,7 @@ Unser Passwortmanager soll einfach und sicher nutzbar sein. Der Fokus liegt dara
 - **Passwort speichern:** Neue Passwörter können manuell eingegeben oder automatisch erkannt und gespeichert werden.  
 - **Passwort abrufen:** Der Nutzer kann gespeicherte Passwörter über eine Suchfunktion schnell finden.  
 - **Automatische Sperre nach Inaktivität** zur Erhöhung der Sicherheit.  
+- **Passwort-Wiederherstellung:** Falls das Master-Passwort vergessen wird, können die **10 bei der Installation generierten Wiederherstellungscodes** verwendet werden. Ohne diese Codes ist eine Wiederherstellung nicht möglich.  
 
 ## **Erweiterbarkeit**
 - **Modular aufgebaut**, um zukünftige Funktionen wie Synchronisation, Team-Zugriff oder mobile Apps zu integrieren.  
@@ -63,3 +66,5 @@ Unser Passwortmanager soll einfach und sicher nutzbar sein. Der Fokus liegt dara
 - **Plattformübergreifende Nutzung (Linux, macOS, Web) erst in späteren Versionen.**  
 - **Server-Synchronisation wird später als optionales Feature eingeführt.**  
 - **Kein Team-Management – der Fokus liegt zunächst auf Einzelbenutzer.**  
+
+---
