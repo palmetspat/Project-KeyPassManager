@@ -59,7 +59,32 @@ Um diese Zielgruppe zu erreichen, sind einfache Bedienbarkeit und Vertrauensbild
 
 - **Unübersichtliches oder veraltetes Design:**  
   - Manche Passwortmanager wirken **veraltet** und sind **nicht modern gestaltet**.  
-  - Wenn eine Software **nicht ansprechend aussieht oder schwer zu bedienen ist**, nutzen viele sie **nicht gerne**.  
+  - Wenn eine Software **nicht ansprechend aussieht oder schwer zu bedienen ist**, nutzen viele sie **nicht gerne**.
+
+###  Unsichere Betriebssysteme & Passwortsicherheit
+
+#### Veraltete Betriebssysteme (z. B. Windows 7, alte Linux-Versionen oder OS Versionen)
+- **Keine Sicherheitsupdates** → bekannte Schwachstellen bleiben offen.
+- **Passwortmanager sind angreifbar**, wenn das OS bereits kompromittiert ist.
+
+### Schlechte Implementierung von Sicherheitsmechanismen
+- **Kein ASLR (Address Space Layout Randomization) oder DEP (Data Execution Prevention)**  
+  → erleichtert Exploits gegen Passwortmanager.
+- **Schwache Speicherisolation** → andere Programme könnten Passwörter auslesen.
+
+#### Keylogger & Malware
+- Wenn das Betriebssystem infiziert ist, kann ein **Keylogger** alle eingegebenen Passwörter mitlesen.
+- **Trojaner** können die Datenbank des Passwortmanagers kopieren und offline angreifen.
+- **Bildschirmaufnahme- oder Clipboard-Malware** kann automatisch eingefügte Passwörter abgreifen.
+
+#### Manipulation der Hardware selbst
+- **Unsichere Firmware** (z. B. infizierte UEFI- oder BIOS-Versionen) könnte einen Passwortmanager bereits vor dem Booten kompromittieren.
+- **Schadcode in der Firmware** von SSDs oder USB-Sticks könnte Daten direkt ausspähen.
+
+#### Fehlende Hardware-Sicherheitsmechanismen
+- **Keine TPM-Unterstützung (Trusted Platform Module)** → Keine sichere Schlüsselverwaltung möglich.
+- **Keine Härtung gegen physische Angriffe** (z. B. Cold Boot Attacken oder RAM-Scraping).
+
 
 
 ### Fazit
