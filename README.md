@@ -2,7 +2,8 @@
   <h1> Key Vault - Password Manager </h1>
   <img src="/Ressources/Pictures/KeyVault-Logo.png" alt="KeyVaultLogo" width="500">
 
-    **Erstellt von: Dominic Kappelmayer | Patrick Palmetshofer | Christoph Kern**
+     <h3>Erstellt von:</h3>
+  <p><strong>Dominic Kappelmayer | Patrick Palmetshofer | Christoph Kern</strong></p>
 </div>
 
 ---
