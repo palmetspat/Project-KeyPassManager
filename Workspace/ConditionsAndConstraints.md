@@ -2,14 +2,13 @@
 
 ## Technische Bedingungen
 - **Speicherung:**  
-  - Passwörter werden **lokal auf dem Gerät** oder **optional auf einem eigenen Server** gespeichert.  
-  - **Keine zentrale Cloud-Speicherung**, um Datenschutzrisiken zu vermeiden.  
-  - Spätere Versionen könnten eine **optionale Synchronisation über eigene Server** ermöglichen.  
+  - In der **ersten Version** werden Passwörter **ausschließlich lokal auf dem eigenen Gerät** gespeichert.  
+  - Eine **optionale Server-Speicherung ist für zukünftige Versionen geplant**, aber es wird **kein externer Anbieter genutzt.**   
 
 - **Plattformen:**  
   - **Primärentwicklung für Windows** als Desktop-Anwendung.  
-  - **Unterstützung für Linux & macOS ist für spätere Versionen geplant.**  
-  - **Webbrowser-Integration (Chrome, Firefox, Edge)** für AutoFill-Funktion vorgesehen.  
+  - **Linux & macOS Unterstützung ist für spätere Versionen vorgesehen.**  
+  - **Webbrowser-Integration (Chrome, Firefox, Edge)** für AutoFill-Funktion geplant.  
   - **Optimiert für ältere Geräte** mit begrenzter Leistung & Speicherplatz.  
 
 - **Sicherheit:**  
@@ -23,18 +22,19 @@
   - **Geringe CPU- und Speicherbelastung**, damit auch ältere PCs kompatibel sind.  
 
 - **Software:**  
-  - Keine zusätzlichen Programme erforderlich, außer ein **optionaler eigener Server für Synchronisation.**  
+  - Keine zusätzlichen Programme erforderlich.  
+  - **Optional wird in späteren Versionen eine Server-Option bereitgestellt.**  
   - **Geringer Speicherbedarf**, um auf Geräten mit wenig freiem Speicher installierbar zu sein.  
 
 ## Einschränkungen der ersten Version
+- **Nur lokale Speicherung, keine Server- oder Cloud-Lösung.**  
 - **Nur Windows-Desktop, keine mobile Version.**  
-- **Keine zentrale Cloud-Speicherung, nur lokale Datenverwaltung.**  
 - **Plattformübergreifende Nutzung (Linux, macOS, Web) ist für spätere Versionen vorgesehen.**  
 
 ## Speicherung & Hosting
-- **Nutzer entscheidet über lokale oder serverbasierte Speicherung.**  
-- **Keine zentrale Server-Lösung**, um Datenschutzrisiken zu vermeiden.  
-- **Optional kann der Nutzer einen eigenen Server nutzen, aber kein Fremdanbieter wird verwendet.**  
+- **In Version 1 werden alle Daten lokal gespeichert.**  
+- **Ein Server-Support für Synchronisation ist für eine spätere Version geplant.**  
+- **Es wird kein externer Hosting-Dienst genutzt – Nutzer behalten volle Kontrolle über ihre Daten.**  
 
 ## Plattformintegration & AutoFill
 - **Automatische Erkennung von Login-Feldern in Desktop- und Web-Anwendungen.**  
