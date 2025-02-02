@@ -4,7 +4,7 @@
 - **Speicherung:**  
   - In der **ersten Version** werden Passwörter **ausschließlich lokal auf dem eigenen Gerät** gespeichert.  
   - Eine **optionale Server-Speicherung ist für zukünftige Versionen geplant**, aber es wird **kein externer Anbieter genutzt.**   
-  - Bei der Erstellung des Master-Passworts werden **10 Wiederherstellungscodes generiert**, die einmalig gespeichert werden. Falls das Master-Passwort und alle Wiederherstellungscodes verloren gehen, gibt es **keine Möglichkeit zur Wiederherstellung**.
+  - Bei der Erstellung des Master-Passworts werden **10 einmalige Wiederherstellungscodes** generiert, die der Nutzer ausdrucken oder sicher notieren muss. Diese Codes sind nicht erneut abrufbar und dienen als einzige Möglichkeit zur Wiederherstellung. Gehen sowohl das       Master-Passwort als auch alle Wiederherstellungscodes verloren, gibt es keine Möglichkeit, den Zugriff wiederherzustellen.
 
 - **Plattformen:**  
   - **Primärentwicklung für Windows** als Desktop-Anwendung.  
