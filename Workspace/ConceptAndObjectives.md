@@ -41,26 +41,19 @@ Unser Konzept basiert auf einer modularen und flexiblen Architektur, die es erm�
 ## **Benutzerfreundlichkeit**  
 
 - **Einfache Einrichtung**  
-  - Schritt-für-Schritt-Anleitung für Erstnutzung & sichere Passwortwahl  
+  - Schritt-für-Schritt-Handout für die Erstinstallation und Grundfunktionen
 
-- **Intuitive Benutzeroberfläche**  
-  - Suchfunktion, Kategorien & Farbmarkierungen für mehr Übersicht  
+- **Intuitive Benutzeroberfläche**
+  - Eine klar strukturierte und übersichtliche Oberfläche, die alle wichtigen Informationen auf einen Blick bietet 
+  - Suchfunktion, Kategorien in Form von Tags 
 
 - **Effiziente Nutzung**  
   - **AutoFill** für Login-Felder  
-  - **Automatische Passwort-Generierung**  
-  - **Drag & Drop** für einfaches Verschieben von Passwörtern  
-
-- **Sicherheit & Komfort**  
-  - **Automatische Sperre nach Inaktivität**  
-  - **Erinnerung an Passwort-Speicherung**  
+  - **Automatische Passwort-Generierung**
+  - **Shortcuts für schnellen Zugriff für das Anlegen, Generieren, Suchen und Löschen von Passwörtern**      
 
 - **Flexibilität**  
   - **Import/Export-Funktion** für einfache Übernahme bestehender Passwörter  
-
-- **Barrierefreiheit**  
-  - **Tastatursteuerung** für Maus-freie Bedienung  
-  - **Bildschirmleser-Unterstützung** für sehbehinderte Nutzer  
 
 Diese Maßnahmen gewährleisten eine **sichere, intuitive und effiziente Nutzung** für alle Nutzergruppen.
 
