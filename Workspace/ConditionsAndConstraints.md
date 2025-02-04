@@ -9,7 +9,7 @@
 - **Plattformen:**  
   - **Primärentwicklung für Windows** als Desktop-Anwendung.  
   - **Linux & macOS Unterstützung ist für spätere Versionen vorgesehen.**  
-  - **Webbrowser-Integration (Chrome, Firefox, Edge)** für AutoFill-Funktion geplant, jedoch nicht in Version 1 enthalten.  
+  - **Webbrowser-Integration (Chrome, Firefox, Edge)**  
   - **Optimiert für ältere Geräte** mit begrenzter Leistung & Speicherplatz.  
 
 - **Sicherheit:**  
@@ -31,8 +31,7 @@
 ## Einschränkungen der ersten Version
 - **Nur lokale Speicherung, keine Server- oder Cloud-Lösung.**  
 - **Nur Windows-Desktop, keine mobile Version.**  
-- **Plattformübergreifende Nutzung (Linux, macOS, Web) ist für spätere Versionen vorgesehen.**  
-- **AutoFill-Funktion nur für die Windows-App, nicht für Browser.**  
+- **Plattformübergreifende Nutzung (Linux, macOS, Web) ist für spätere Versionen vorgesehen.**    
 - **10 Wiederherstellungscodes werden einmalig generiert, aber nicht erneut abrufbar.**  
 
 ## Speicherung & Hosting
@@ -41,8 +40,8 @@
 - **Es wird kein externer Hosting-Dienst genutzt – Nutzer behalten volle Kontrolle über ihre Daten.**  
 
 ## Plattformintegration & AutoFill
-- **Automatische Erkennung von Login-Feldern in der Windows-App.**  
-- **Browser-Integration für AutoFill ist vorgesehen, aber nicht in Version 1 enthalten.**  
+- **Automatische Erkennung von Login-Feldern in der Desktop-Anwendung und in den jeweiligen Webbrowsern.**  
+- **Das automatische ausfüllen der Benutzerdaten (Passwort und Username) ist vorgesehen.**  
 - **Optimiert für ältere Systeme, kein dauerhaft hoher Ressourcenverbrauch.**  
 
 ---
