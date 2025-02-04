@@ -38,11 +38,32 @@ Unser Konzept basiert auf einer modularen und flexiblen Architektur, die es erm�
 - **Unterstützung für SSL/TLS** zur sicheren Kommunikation.  
 - **Master-Passwort kann nicht zurückgesetzt werden, außer mit den generierten Wiederherstellungscodes.**  
 
-## **Benutzerfreundlichkeit**
-- **Einfache Bedienung** für alle Nutzergruppen.  
-- **Schnelle Suchfunktion**, um gespeicherte Passwörter leicht zu finden.  
-- **Import/Export-Funktion**, um bestehende Passwörter zu übernehmen.  
-- **AutoFill-Funktion in der Windows-App**, um Login-Felder automatisch auszufüllen (deaktivierbar).  
+## **Benutzerfreundlichkeit**  
+
+- **Einfache Einrichtung**  
+  - Schritt-für-Schritt-Anleitung für Erstnutzung & sichere Passwortwahl  
+
+- **Intuitive Benutzeroberfläche**  
+  - Suchfunktion, Kategorien & Farbmarkierungen für mehr Übersicht  
+
+- **Effiziente Nutzung**  
+  - **AutoFill** für Login-Felder  
+  - **Automatische Passwort-Generierung**  
+  - **Drag & Drop** für einfaches Verschieben von Passwörtern  
+
+- **Sicherheit & Komfort**  
+  - **Automatische Sperre nach Inaktivität**  
+  - **Erinnerung an Passwort-Speicherung**  
+
+- **Flexibilität**  
+  - **Import/Export-Funktion** für einfache Übernahme bestehender Passwörter  
+
+- **Barrierefreiheit**  
+  - **Tastatursteuerung** für Maus-freie Bedienung  
+  - **Bildschirmleser-Unterstützung** für sehbehinderte Nutzer  
+
+Diese Maßnahmen gewährleisten eine **sichere, intuitive und effiziente Nutzung** für alle Nutzergruppen.
+
 
 ### **Benutzungskonzept**
 Unser Passwortmanager soll einfach und sicher nutzbar sein. Der Fokus liegt darauf, dass auch unerfahrene Nutzer Passwörter sicher verwalten können, ohne komplexe technische Vorkenntnisse zu benötigen.
