@@ -38,24 +38,54 @@ Unser Konzept basiert auf einer modularen und flexiblen Architektur, die es erm�
 - **Unterstützung für SSL/TLS** zur sicheren Kommunikation.  
 - **Master-Passwort kann nicht zurückgesetzt werden, außer mit den generierten Wiederherstellungscodes.**  
 
+<!--
 ## **Benutzerfreundlichkeit**  
 
 - **Einfache Einrichtung**  
   - Schritt-für-Schritt-Handout für die Erstinstallation und Grundfunktionen
+  - Die Erstinstallation wird je nach Betriebssystem eigens beschrieben und detailiert mit Bildern wiedergegeben.
+  - Ein Docker-Compose-File erleichert die Ersteinrichtung immens.
 
 - **Intuitive Benutzeroberfläche**
   - Eine klar strukturierte und übersichtliche Oberfläche, die alle wichtigen Informationen auf einen Blick bietet 
-  - Suchfunktion, Kategorien in Form von Tags 
+  - Suchfunktion
+  - Kategorien in Form von Tags welche eigen Konfigurierbar sind (Farbe, verknüpfte Tags)
+  - Zusatsfunktionen wie ein Passwort-check oder Passwortgenerator werden in andere Programmabschnitte ausgelagert um den Nutzer nicht zu überfordern.
 
 - **Effiziente Nutzung**  
   - **AutoFill** für Login-Felder  
   - **Automatische Passwort-Generierung**
-  - **Shortcuts für schnellen Zugriff für das Anlegen, Generieren, Suchen und Löschen von Passwörtern**      
+  - **Shortcuts für schnellen Zugriff für das Anlegen, Generieren, Suchen und Löschen von Passwörtern**
+  - Eigen definierte Shortcuts durch Tastenbelegung ist ebenso möglich.    
 
 - **Flexibilität**  
   - **Import/Export-Funktion** für einfache Übernahme bestehender Passwörter  
 
 Diese Maßnahmen gewährleisten eine **sichere, intuitive und effiziente Nutzung** für alle Nutzergruppen.
+-->
+## **Benutzerfreundlichkeit**  
+
+### **Einfache Einrichtung**  
+- Eine detaillierte Schritt-für-Schritt-Anleitung erleichtert die Erstinstallation und vermittelt die grundlegenden Funktionen.  
+- Die Installationsanweisungen sind spezifisch für verschiedene Betriebssysteme aufbereitet und werden durch anschauliche Abbildungen ergänzt.  
+- Die Bereitstellung einer vorkonfigurierten **Docker-Compose-Datei** vereinfacht die Einrichtung erheblich.  
+
+### **Intuitive Benutzeroberfläche**  
+- Eine klar strukturierte, übersichtliche und anpassbare Benutzeroberfläche stellt alle wesentlichen Informationen auf einen Blick bereit.  
+- Eine **Suchfunktion** ermöglicht ein schnelles Auffinden gespeicherter Einträge.  
+- **Individuell konfigurierbare Kategorien in Form von Tags** (einschließlich Farbanpassung und Verknüpfung mehrerer Tags) erleichtern die Organisation.  
+- Zusätzliche Funktionen werden bewusst in separate Bereiche ausgelagert, um die Hauptansicht nicht zu überladen und die Nutzerfreundlichkeit zu verbessern.  
+
+### **Effiziente Nutzung**  
+- **AutoFill-Unterstützung** für Login-Felder erleichtert das schnelle und sichere Ausfüllen von Anmeldedaten.  
+- **Automatische Passwort-Generierung** ermöglicht die Erstellung sicherer Passwörter direkt in der Anwendung.  
+- **Tastaturkürzel für häufig genutzte Aktionen** (z. B. Anlegen, Generieren, Suchen und Löschen von Passwörtern) verbessern die Bedienbarkeit.  
+- Benutzerdefinierte Shortcuts durch frei belegbare Tasten erlauben eine flexible Anpassung an individuelle Bedürfnisse.  
+
+### **Flexibilität**  
+- Eine **Import- und Exportfunktion** ermöglicht eine einfache Übernahme bestehender Passwörter und gewährleistet eine hohe Datenportabilität.  
+
+Diese Maßnahmen gewährleisten eine **sichere, intuitive und effiziente Nutzung** für alle Anwendergruppen – von Einsteigern bis hin zu fortgeschrittenen Nutzern.
 
 
 ### **Benutzungskonzept**
